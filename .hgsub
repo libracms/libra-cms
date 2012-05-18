@@ -1,0 +1,11 @@
+;vendor/ZfcBase = [git]https://github.com/ZF-Commons/ZfcBase.git
+;vendor/ZfcUser = [git]https://github.com/ZF-Commons/ZfcUser.git
+;vendor/TwitterBootstrapFormDecorators = [git]https://github.com/mwillbanks/TwitterBootstrapFormDecorators.git
+;vendor/EdpMarkdown = [git]https://github.com/EvanDotPro/EdpMarkdown.git
+;vendor/EdpMarkdown/src/PhpMarkdown = [git]http://git.michelf.com/php-markdown
+
+;vendor/EdpGithub = [git]https://github.com/EvanDotPro/EdpGithub.git
+;vendor/ZendSkeletonModule = [git]https://github.com/zendframework/ZendSkeletonModule.git
+;vendor/MwopGuestbook = [git]https://github.com/EvanDotPro/MwopGuestbook.git
+;vendor/AsseticBundle = [git]https://github.com/widmogrod/zf2-assetic-module.git
+;vendor/Assetic = [git]https://github.com/kriswallsmith/assetic.git
