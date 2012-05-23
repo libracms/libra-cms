@@ -10,17 +10,13 @@
 ^.idea$
 
 ^vendor$
-^vendor/Zend$
+^vendor/zendframework$
 ^data/cache$
-^admin/data/cache$
-^config/autoload/local\.config\.php$
-^config/autoload/.*local\.config\.php$
-^admin/config/autoload/local\.config\.php$
-^admin/config/autoload/.*local\.config\.php$
+^config/autoload/local\.php$
+^config/autoload/.*local\.php$
 
 ^public/vendor$
 ^public/images/stories$
-^config/config.php$
 
 ^language/.*\.php$
 
