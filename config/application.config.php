@@ -2,7 +2,9 @@
 return array(
     'modules' => array(
         'LibraApp',
-        //'Libra/Application',
+        'LibraArticle',
+        'LibraNavigation',
+        //'ZfcUser',
     ),
     'module_listener_options' => array( 
         'config_glob_paths'    => array(
@@ -13,8 +15,10 @@ return array(
         'module_paths' => array(
             './module',
             './vendor',
-            'LibraApp' => './vendor/libra/libra-app',
-            'Libra/Application' => './vendor/libra/libra-app',
+            //for ModuleAutoloader, if installed by composer it would not be necessary
+            'LibraApp'      => './vendor/libra/libra-app',
+            'LibraArticle'  => './vendor/libra/libra-article',
+            'LibraNavigation'     => './vendor/libra/libra-navigation',
         ),
     ),
     'service_manager' => array(

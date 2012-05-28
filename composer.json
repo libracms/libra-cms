@@ -1,15 +1,13 @@
 {
     "name":         "libra/libra-cms",
     "type":         "library",
-    //"type":         "zf-application",
-    //"version":      "0.0.1",
     "description":  "Default application for Libra CMS",
     "keywords":     ["zf", "zf2", "zendframework", "cms"],
     "homepage":     "http://www.libra-cms.ejoom.com",
     "time":         "2012-05-16",
     "licence":      "BSD-3-Clause",
     "authors": [
-        {'name': 'duke', 'email': 'duke@ejoom.com', 'role': 'maintainer', 'homepage': 'http://www.ejoom.com'}
+        {"name": "duke", "email": "duke@ejoom.com", "role": "maintainer", "homepage": "http://www.ejoom.com"}
     ],
 
     "config": {
@@ -17,11 +15,8 @@
     },
 
     "require": {
-        "php":          ">=5.3.2",
-        "doctrine/orm": "2.2.*",
-        "doctrine/DoctrineORMModule": "0.3.1",
-        "libra/Libra":  "0.*",
-        "libra/LibraArticle": "0.*"
+        "php":          ">=5.3.3",
+        "doctrine/orm": ">=2.2, <2.2.99"
     },
 
     "require-dev": {
@@ -29,7 +24,6 @@
     },
 
     "autoload": {
-        "psr-0": {"Libra\\Kernel": "src"}
     },
 
     "provide": {

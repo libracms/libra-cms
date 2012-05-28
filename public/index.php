@@ -7,7 +7,6 @@ mb_internal_encoding('utf-8');
 
 chdir(dirname(__DIR__));
 
-/*
 if (!file_exists('vendor/autoload.php')) {
     throw new RuntimeException('vendor/autoload.php could not be found. Did you run php composer.phar install?');
     exit;
@@ -15,7 +14,6 @@ if (!file_exists('vendor/autoload.php')) {
 
 // Composer autoloading
 require_once('vendor/autoload.php');
-*/
 
 //Zend autoloader
 $file = (getenv('ZF2_PATH') ?: 'vendor/ZendFramework/library') . '/Zend/Loader/AutoloaderFactory.php';
