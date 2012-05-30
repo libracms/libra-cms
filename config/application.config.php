@@ -4,6 +4,9 @@ return array(
         'LibraApp',
         'LibraArticle',
         'LibraNavigation',
+        //'OcraComposer',
+        'DoctrineModule',
+        'DoctrineORMModule',
         //'ZfcUser',
     ),
     'module_listener_options' => array( 
