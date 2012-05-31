@@ -15,6 +15,7 @@ if (!file_exists('vendor/autoload.php')) {
 // Composer autoloading
 require_once('vendor/autoload.php');
 
+/*
 //Zend autoloader
 $file = (getenv('ZF2_PATH') ?: 'vendor/ZendFramework/library') . '/Zend/Loader/AutoloaderFactory.php';
 if (file_exists($file)) {
@@ -23,6 +24,7 @@ if (file_exists($file)) {
     require_once 'Zend/Loader/AutoloaderFactory.php';
 }
 Zend\Loader\AutoloaderFactory::factory();
+ */
 
 // Get application stack configuration
 $configuration = include 'config/application.config.php';

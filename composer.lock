@@ -1,13 +1,15 @@
 {
-    "hash": "6ddc0f1828752d5c4e3f4c9fe36de75f",
+    "hash": "a38f13215406465b19382b28852471f6",
     "packages": [
         {
             "package": "doctrine/DoctrineModule",
-            "version": "0.3.1"
+            "version": "dev-master",
+            "source-reference": "029e3dddc5892c6439e772847aa11ef8bdd45ebb"
         },
         {
             "package": "doctrine/DoctrineORMModule",
-            "version": "0.3.1"
+            "version": "dev-master",
+            "source-reference": "518b587cfa526649dd4e8275010d8833944dbc74"
         },
         {
             "package": "doctrine/common",
@@ -32,21 +34,12 @@
             "version": "2.2.2"
         },
         {
-            "package": "ocramius/OcraComposer",
-            "version": "0.2.0"
-        },
-        {
-            "package": "ocramius/OcraComposerInstaller",
-            "version": "dev-master",
-            "source-reference": "0.1.0"
-        },
-        {
             "package": "symfony/console",
-            "version": "v2.0.13"
+            "version": "v2.0.14"
         },
         {
             "package": "symfony/yaml",
-            "version": "v2.0.13"
+            "version": "v2.0.14"
         }
     ],
     "packages-dev": null,
@@ -54,7 +47,7 @@
 
     ],
     "minimum-stability": "dev",
-    "stability-flags": [
-
-    ]
+    "stability-flags": {
+        "doctrine/doctrineormmodule": 20
+    }
 }

@@ -28,9 +28,22 @@ echo "User saved!";
 // Create EntityManager
 $em = EntityManager::create($connectionOptions, $config);
 
-$q = $em->createQuery('select  u from LibraArticle\Entity\User u where u.name = ?1');
+/*$q = $em->createQuery('select  u from LibraArticle\Entity\User u where u.name = ?1');
 $q->setParameter(1, 'Garfield');
 $garfield = $q->getResult();
-
 var_dump($garfield);
-echo "Hello " . $garfield[0]->getName() . "! count: " . count($garfield) . "\n";
+*/
+
+$articles = $em->getRepository('LibraArticle\Entity\Article');
+$article = $articles->findOneBy(array('alias' => 'homepage'));
+//$em->flush();
+//$res = $articles->findAll();
+
+$q = $em->createQuery('select  a from LibraArticle\Entity\Article a where a.alias = ?1');
+$q->setParameter(1, 'faq');
+$res = $q->getSingleResult();
+
+//var_dump($res);
+var_dump($article);
+
+//echo "Hello " . $garfield[0]->getName() . "! count: " . count($garfield) . "\n";
