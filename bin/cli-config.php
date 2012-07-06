@@ -26,7 +26,11 @@ require_once 'vendor/autoload.php';
 
 //Zend autoloader
 require_once 'Zend/Loader/AutoloaderFactory.php';
-Zend\Loader\AutoloaderFactory::factory();
+Zend\Loader\AutoloaderFactory::factory(array(
+    'Zend\Loader\StandardAutoloader' => array(
+        'autoregister_zf' => true
+    )
+));
 
 // Get application stack configuration
 $configuration = include 'config/application.config.php';
@@ -68,8 +72,8 @@ foreach ($drivers as $driver) {
 //$paths = array("/home/duke/www/libra-cms/vendor/libra/libra-article/src/LibraArticle/Entity");
 //$driverObject = new $class($paths);
 
-$driverObject = new AnnotationDriver($reader, $paths);
-$driverChain->addDriver($driverObject, $namespace);
+//$driverObject = new AnnotationDriver($reader, $paths);
+//$driverChain->addDriver($driverObject, $namespace);
 
 // Set up caches
 $config = new Configuration;

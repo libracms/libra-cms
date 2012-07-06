@@ -1,15 +1,17 @@
 {
-    "hash": "a38f13215406465b19382b28852471f6",
+    "hash": "b34e4abd0df0aa9c8f19d060719267fb",
     "packages": [
         {
             "package": "doctrine/DoctrineModule",
             "version": "dev-master",
-            "source-reference": "029e3dddc5892c6439e772847aa11ef8bdd45ebb"
+            "source-reference": "46b44060a6311658caeb03190c034b9ea38856f7",
+            "commit-date": "1340720705"
         },
         {
             "package": "doctrine/DoctrineORMModule",
             "version": "dev-master",
-            "source-reference": "518b587cfa526649dd4e8275010d8833944dbc74"
+            "source-reference": "ed7671607d60dd4017f8d8e2de64c4fda4a16efa",
+            "commit-date": "1340720678"
         },
         {
             "package": "doctrine/common",
@@ -18,7 +20,8 @@
         {
             "package": "doctrine/data-fixtures",
             "version": "dev-master",
-            "source-reference": "d233d05437c1a10034867f22069b4bb0f7dc96b6"
+            "source-reference": "64538135ef2b17a296e26f88a04c7ce2e4551459",
+            "commit-date": "1340776266"
         },
         {
             "package": "doctrine/dbal",
@@ -27,7 +30,8 @@
         {
             "package": "doctrine/migrations",
             "version": "dev-master",
-            "source-reference": "fe98141b1e460baf5ab52f9139e1ae238101b28b"
+            "source-reference": "fe98141b1e460baf5ab52f9139e1ae238101b28b",
+            "commit-date": "1336330359"
         },
         {
             "package": "doctrine/orm",
@@ -35,11 +39,11 @@
         },
         {
             "package": "symfony/console",
-            "version": "v2.0.14"
+            "version": "v2.0.15"
         },
         {
             "package": "symfony/yaml",
-            "version": "v2.0.14"
+            "version": "v2.0.15"
         }
     ],
     "packages-dev": null,

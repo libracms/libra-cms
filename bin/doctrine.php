@@ -47,6 +47,7 @@ $cli->addCommands(array(
     new \Doctrine\ORM\Tools\Console\Command\GenerateEntitiesCommand(),
     new \Doctrine\ORM\Tools\Console\Command\GenerateProxiesCommand(),
     new \Doctrine\ORM\Tools\Console\Command\ConvertMappingCommand(),
+    new \Doctrine\ORM\Tools\Console\Command\InfoCommand(),
     new \Doctrine\ORM\Tools\Console\Command\RunDqlCommand(),
     new \Doctrine\ORM\Tools\Console\Command\ValidateSchemaCommand(),
 

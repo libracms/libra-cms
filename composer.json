@@ -16,9 +16,9 @@
 
     "require": {
         "php":          ">=5.3.3",
-        "doctrine/orm": ">=2.2.2, <2.2.99",
-        "symfony/console": ">=2.0, <2.0.99",
-        "symfony/yaml": ">=2.0, <2.0.99",
+        "doctrine/orm": ">=2.2.0, <2.2.99",
+        "symfony/console": ">=2.0.0, <2.0.99",
+        "symfony/yaml": ">=2.0.0, <2.0.99",
         "doctrine/DoctrineORMModule": "dev-master"
     },
 
@@ -27,7 +27,8 @@
     },
 
     "autoload": {
-        "psr-0": {"Zend": "vendor/zendframework/zendframework/library"},
+        "psr-0": {
+        },
         "classmap": []
     },
 

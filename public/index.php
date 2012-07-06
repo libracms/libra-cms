@@ -1,30 +1,36 @@
 <?php
-use Zend\ServiceManager\ServiceManager,
-    Zend\Mvc\Service\ServiceManagerConfiguration;
+use Zend\Loader\AutoloaderFactory;
+use Zend\ServiceManager\ServiceManager;
+use Zend\Mvc\Service\ServiceManagerConfiguration;
 
 date_default_timezone_set('UTC');
 mb_internal_encoding('utf-8');
+putenv('ZF2_PATH=/usr/share/zf2/library');
 
 chdir(dirname(__DIR__));
 
-if (!file_exists('vendor/autoload.php')) {
-    throw new RuntimeException('vendor/autoload.php could not be found. Did you run php composer.phar install?');
-    exit;
-}
-
 // Composer autoloading
-require_once('vendor/autoload.php');
-
-/*
-//Zend autoloader
-$file = (getenv('ZF2_PATH') ?: 'vendor/ZendFramework/library') . '/Zend/Loader/AutoloaderFactory.php';
-if (file_exists($file)) {
-    require_once $file;
-} else {
-    require_once 'Zend/Loader/AutoloaderFactory.php';
+if (file_exists('vendor/autoload.php')) {
+    $loader = include 'vendor/autoload.php';
 }
-Zend\Loader\AutoloaderFactory::factory();
- */
+
+// Support for ZF2_PATH environment variable or git submodule
+if ($zf2Path = getenv('ZF2_PATH') ?: (is_dir('vendor/ZF2/library') ? 'vendor/ZF2/library' : false)) {
+    if (isset($loader)) {
+        $loader->add('Zend', $zf2Path);
+    } else {
+        include $zf2Path . '/Zend/Loader/AutoloaderFactory.php';
+        AutoloaderFactory::factory(array(
+            'Zend\Loader\StandardAutoloader' => array(
+                'autoregister_zf' => true
+            )
+        ));
+    }
+}
+
+if (!class_exists('Zend\Loader\AutoloaderFactory')) {
+    throw new RuntimeException('Unable to load ZF2. Run `php composer.phar install` or define a ZF2_PATH environment variable.');
+}
 
 // Get application stack configuration
 $configuration = include 'config/application.config.php';
