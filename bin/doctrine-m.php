@@ -17,9 +17,8 @@
  * <http://www.doctrine-project.org>.
  */
 
-use Zend\Loader\AutoloaderFactory;
 use Zend\ServiceManager\ServiceManager;
-use Zend\Mvc\Service\ServiceManagerConfiguration;
+use Zend\Mvc\Application;
 
 ini_set('display_errors', true);
 chdir(__DIR__);
@@ -40,29 +39,14 @@ while (!file_exists('config/application.config.php')) {
     chdir($dir);
 }
 
-if  (!(@include_once __DIR__ . '/../vendor/autoload.php') && !(@include_once __DIR__ . '/../../../autoload.php')) {
+if (!(@include_once __DIR__ . '/../vendor/autoload.php') && !(@include_once __DIR__ . '/../../../autoload.php')) {
     throw new RuntimeException('Error: vendor/autoload.php could not be found. Did you run php composer.phar install?');
 }
 
-//Zend autoloader
-require_once 'Zend/Loader/AutoloaderFactory.php';
-Zend\Loader\AutoloaderFactory::factory(array(
-    'Zend\Loader\StandardAutoloader' => array(
-        'autoregister_zf' => true
-    )
-));
+include 'init_autoloader.php';
 
-// get application stack configuration
-$configuration = include 'config/application.config.php';
+$application = Application::init(include 'config/application.config.php');
 
-// setup service manager
-$serviceManager = new ServiceManager(new ServiceManagerConfiguration($configuration['service_manager']));
-$serviceManager->setService('ApplicationConfiguration', $configuration);
-$serviceManager->get('ModuleManager')->loadModules();
-
-$em = $serviceManager->get('doctrine.entitymanager.orm_default');
-$platform = $em->getConnection()->getDatabasePlatform();
-//$platform->registerDoctrineTypeMapping('enum', 'string');
-
-$serviceManager->get('Application')->bootstrap();
-$serviceManager->get('doctrine.cli')->run();
+/* @var $cli \Symfony\Component\Console\Application */
+$cli = $application->getServiceManager()->get('doctrine.cli');
+$cli->run();

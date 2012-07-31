@@ -1,49 +1,37 @@
 {
-    "hash": "b34e4abd0df0aa9c8f19d060719267fb",
+    "hash": "795d156f105a9ef708fcb62c70a0fb5d",
     "packages": [
         {
-            "package": "doctrine/DoctrineModule",
-            "version": "dev-master",
-            "source-reference": "46b44060a6311658caeb03190c034b9ea38856f7",
-            "commit-date": "1340720705"
-        },
-        {
-            "package": "doctrine/DoctrineORMModule",
-            "version": "dev-master",
-            "source-reference": "ed7671607d60dd4017f8d8e2de64c4fda4a16efa",
-            "commit-date": "1340720678"
-        },
-        {
             "package": "doctrine/common",
-            "version": "2.2.2"
+            "version": "2.3.0-RC1"
         },
         {
             "package": "doctrine/data-fixtures",
             "version": "dev-master",
-            "source-reference": "64538135ef2b17a296e26f88a04c7ce2e4551459",
-            "commit-date": "1340776266"
+            "source-reference": "779c3dfe446b6da893be87b908d6be28345d1e01",
+            "commit-date": "1341780535"
         },
         {
             "package": "doctrine/dbal",
-            "version": "2.2.2"
+            "version": "2.3.0-RC1"
         },
         {
             "package": "doctrine/migrations",
             "version": "dev-master",
-            "source-reference": "fe98141b1e460baf5ab52f9139e1ae238101b28b",
-            "commit-date": "1336330359"
+            "source-reference": "b86b4cc0a39714f0aa53b908d495beacfa0e4011",
+            "commit-date": "1343202693"
         },
         {
             "package": "doctrine/orm",
-            "version": "2.2.2"
+            "version": "2.3.0-RC1"
         },
         {
             "package": "symfony/console",
-            "version": "v2.0.15"
+            "version": "v2.0.16"
         },
         {
             "package": "symfony/yaml",
-            "version": "v2.0.15"
+            "version": "v2.0.16"
         }
     ],
     "packages-dev": null,
@@ -52,6 +40,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "doctrine/doctrineormmodule": 20
+        "doctrine/data-fixtures": 20,
+        "doctrine/migrations": 20
     }
 }

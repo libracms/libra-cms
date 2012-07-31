@@ -14,12 +14,17 @@
         "bin-dir": "bin"
     },
 
+    "minimum-stability": "dev",
+
     "require": {
         "php":          ">=5.3.3",
-        "doctrine/orm": ">=2.2.0, <2.2.99",
+        "doctrine/common": ">=2.2.0, <2.3.99",
+        "doctrine/dbal": ">=2.2.0, <2.3.99",
+        "doctrine/orm": ">=2.2.0, <2.3.99",
+        "doctrine/data-fixtures": "dev-master",
+        "doctrine/migrations": "dev-master",
         "symfony/console": ">=2.0.0, <2.0.99",
-        "symfony/yaml": ">=2.0.0, <2.0.99",
-        "doctrine/DoctrineORMModule": "dev-master"
+        "symfony/yaml": ">=2.0.0, <2.0.99"
     },
 
     "require-dev": {
