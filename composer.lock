@@ -1,5 +1,5 @@
 {
-    "hash": "795d156f105a9ef708fcb62c70a0fb5d",
+    "hash": "d73b21d5a2533c81f3225ee986d6f556",
     "packages": [
         {
             "package": "doctrine/common",
@@ -41,6 +41,9 @@
     "minimum-stability": "dev",
     "stability-flags": {
         "doctrine/data-fixtures": 20,
-        "doctrine/migrations": 20
+        "doctrine/migrations": 20,
+        "zendframework/zendframework": 20,
+        "doctrine/doctrine-orm-module": 20,
+        "zf-commons/zfc-user-doctrine-orm": 20
     }
 }

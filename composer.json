@@ -18,9 +18,9 @@
 
     "require": {
         "php":          ">=5.3.3",
-        "doctrine/common": ">=2.2.0, <2.3.99",
-        "doctrine/dbal": ">=2.2.0, <2.3.99",
-        "doctrine/orm": ">=2.2.0, <2.3.99",
+        "doctrine/common": ">=2.3.0-RC, <2.3.99",
+        "doctrine/dbal": ">=2.3.0-RC, <2.3.99",
+        "doctrine/orm": ">=2.3.0-RC, <2.3.99",
         "doctrine/data-fixtures": "dev-master",
         "doctrine/migrations": "dev-master",
         "symfony/console": ">=2.0.0, <2.0.99",
@@ -28,7 +28,9 @@
     },
 
     "require-dev": {
-        
+        "zendframework/zendframework": "dev-master",
+        "doctrine/doctrine-orm-module": "dev-master",
+        "zf-commons/zfc-user-doctrine-orm": "dev-master"
     },
 
     "autoload": {
