@@ -27,11 +27,11 @@
         },
         {
             "package": "symfony/console",
-            "version": "v2.0.16"
+            "version": "v2.0.17"
         },
         {
             "package": "symfony/yaml",
-            "version": "v2.0.16"
+            "version": "v2.0.17"
         }
     ],
     "packages-dev": null,

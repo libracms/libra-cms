@@ -50,7 +50,7 @@ return array(
                 'label'      => 'User',
             ),
             array(
-                'route'      => 'admin/libra-article',
+                'route'      => 'admin/libra-article/list',
                 'label'      => 'Admin article',
                 'controller' => 'index',
             ),

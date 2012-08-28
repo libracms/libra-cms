@@ -18,7 +18,7 @@
 
 
 //set for console
-putenv('ZF2_PATH=/usr/share/zf2/library');
+//putenv('ZF2_PATH=/usr/share/zf2/library');
 
 // Composer autoloading
 if (file_exists('vendor/autoload.php')) {

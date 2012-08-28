@@ -14,7 +14,7 @@ return array(
                 ),
             ),
             array(
-                'route'      => 'admin/libra-article',
+                'route'      => 'admin/libra-article/list',
                 'label'      => 'Article',
             ),
             array(
@@ -22,7 +22,7 @@ return array(
                 'label'      => 'conf',
                 'pages' => array(
                     array(
-                        'route'      => 'admin/libra-article',
+                        'route'      => 'admin/libra-article/list',
                         'label'      => 'Article',
                     ),
                 ),
