@@ -9,26 +9,14 @@ return array(
             array(
                 'route'      => 'admin/home',
                 'label'      => 'Administration',
-                'options' => array(
-                    'class' => 'nav',
-                ),
             ),
             array(
-                'route'      => 'admin/libra-article/list',
+                'route'      => 'admin/libra-navigation/navigations',
+                'label'      => 'Navigation',
+            ),
+            array(
+                'route'      => 'admin/libra-article/articles',
                 'label'      => 'Article',
-            ),
-            array(
-                'uri'      => '#',
-                'label'      => 'conf',
-                'pages' => array(
-                    array(
-                        'route'      => 'admin/libra-article/list',
-                        'label'      => 'Article',
-                    ),
-                ),
-                'options' => array(
-                    'class' => 'nav',
-                ),
             ),
         ),
     ),
