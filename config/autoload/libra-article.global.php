@@ -13,7 +13,7 @@ return array(
             'libra-article' => array(
                 'priority' => $config['use_short_alias'] ? -100 : null,
                 'options' => array(
-                    'route' => ($config['locales'] ? '/:locale' : '') . (($config['use_short_alias'] ? '' : '/article') . '[/:alias]'),
+                    'route' => ($config['use_short_alias'] ? '' : '/article') . '[/:alias]',
                 ),
             ),
         ),

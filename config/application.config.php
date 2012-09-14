@@ -8,7 +8,7 @@ return array(
         'LibraArticle',
         'LibraNavigation',
         //'LibraAdmin',
-        'LibraUser',
+        //'LibraUser',
         'LibraLocale',
         'ZfcBase',
         'ZfcUser',

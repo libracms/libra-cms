@@ -3,7 +3,7 @@
     "packages": [
         {
             "package": "doctrine/common",
-            "version": "2.3.0-RC1"
+            "version": "2.3.0-RC2"
         },
         {
             "package": "doctrine/data-fixtures",
@@ -13,17 +13,17 @@
         },
         {
             "package": "doctrine/dbal",
-            "version": "2.3.0-RC1"
+            "version": "2.3.0-RC3"
         },
         {
             "package": "doctrine/migrations",
             "version": "dev-master",
-            "source-reference": "b86b4cc0a39714f0aa53b908d495beacfa0e4011",
-            "commit-date": "1343202693"
+            "source-reference": "17f4b56bf0af0274cabdf3ae9b644059246d66b7",
+            "commit-date": "1347005884"
         },
         {
             "package": "doctrine/orm",
-            "version": "2.3.0-RC1"
+            "version": "2.3.0-RC3"
         },
         {
             "package": "symfony/console",

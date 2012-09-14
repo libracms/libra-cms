@@ -4,10 +4,10 @@
     "description":  "Default application for Libra CMS",
     "keywords":     ["zf", "zf2", "zendframework", "cms"],
     "homepage":     "http://www.libra-cms.ejoom.com",
-    "time":         "2012-05-16",
+    "time":         "2012-04-21",
     "licence":      "BSD-3-Clause",
     "authors": [
-        {"name": "duke", "email": "duke@ejoom.com", "role": "maintainer", "homepage": "http://www.ejoom.com"}
+        {"name": "duke", "email": "duke@ejoom.com", "role": "maintainer, developer", "homepage": "http://www.ejoom.com"}
     ],
 
     "config": {
@@ -17,14 +17,20 @@
     "minimum-stability": "dev",
 
     "require": {
-        "php":          ">=5.3.3",
-        "doctrine/common": ">=2.3.0-RC, <2.3.99",
-        "doctrine/dbal": ">=2.3.0-RC, <2.3.99",
-        "doctrine/orm": ">=2.3.0-RC, <2.3.99",
+        "php": ">=5.3.2",
+        "libra/libra-installer": "dev-default",
+        "zendframework/zendframework": "2.*",
+        "doctrine/common":  "2.3.*@RC",
+        "doctrine/dbal":    "2.3.*@RC",
+        "doctrine/orm":     "2.3.*@RC",
         "doctrine/data-fixtures": "dev-master",
         "doctrine/migrations": "dev-master",
-        "symfony/console": ">=2.0.0, <2.0.99",
-        "symfony/yaml": ">=2.0.0, <2.0.99"
+        "doctrine/doctrine-module": "dev-master",
+        "doctrine/doctrine-orm-module": "dev-master",
+        "libra/libra":          "dev-default",
+        "libra/libra-app":      "dev-default",
+        "libra/libra-article":  "dev-default",
+        "libra/libra-locale":   "dev-default"
     },
 
     "require-dev": {
@@ -33,18 +39,17 @@
         "zf-commons/zfc-user-doctrine-orm": "dev-master"
     },
 
-    "autoload": {
-        "psr-0": {
-        },
-        "classmap": []
-    },
-
     "provide": {
       
     },
 
     "sugest": {
 
+    },
+
+    "scripts": {
+        "post-package-install":  "LibraInstaller\\Installer::postPackageInstall",
+        "pre-package-uninstall": "LibraInstaller\\Installer::prePackageUnistall"
     }
 
 }

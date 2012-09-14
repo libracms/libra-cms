@@ -62,10 +62,10 @@ return array(
                     'locale' => 'ru',
                 ),
             ),
-            array(
+            /*array(
                 'route'      => 'libra-user',
                 'label'      => 'User',
-            ),
+            ),*/
             array(
                 'route'      => 'admin/libra-article/articles',
                 'label'      => 'Admin article',
