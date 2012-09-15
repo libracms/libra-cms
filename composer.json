@@ -19,7 +19,7 @@
     "require": {
         "php":                              ">=5.3.3",
         "libra/libra-installer":            "dev-default",
-        "zendframework/zendframework":      "2.*",
+        "zendframework/zendframework":      "2.0.0",
         "doctrine/common":                  "2.3.*@RC",
         "doctrine/dbal":                    "2.3.*@RC",
         "doctrine/orm":                     "2.3.*@RC",
