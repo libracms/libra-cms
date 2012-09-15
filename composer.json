@@ -14,23 +14,25 @@
         "bin-dir": "bin"
     },
 
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
 
     "require": {
-        "php": ">=5.3.2",
-        "libra/libra-installer": "dev-default",
-        "zendframework/zendframework": "2.*",
-        "doctrine/common":  "2.3.*@RC",
-        "doctrine/dbal":    "2.3.*@RC",
-        "doctrine/orm":     "2.3.*@RC",
-        "doctrine/data-fixtures": "dev-master",
-        "doctrine/migrations": "dev-master",
-        "doctrine/doctrine-module": "dev-master",
-        "doctrine/doctrine-orm-module": "dev-master",
-        "libra/libra":          "dev-default",
-        "libra/libra-app":      "dev-default",
-        "libra/libra-article":  "dev-default",
-        "libra/libra-locale":   "dev-default"
+        "php":                              ">=5.3.3",
+        "libra/libra-installer":            "dev-default",
+        "zendframework/zendframework":      "2.*",
+        "doctrine/common":                  "2.3.*@RC",
+        "doctrine/dbal":                    "2.3.*@RC",
+        "doctrine/orm":                     "2.3.*@RC",
+        "doctrine/data-fixtures":           "dev-master",
+        "doctrine/migrations":              "dev-master",
+        "doctrine/doctrine-module":         "dev-master",
+        "doctrine/doctrine-orm-module":     "dev-master",
+        "libra/libra":                      "dev-default",
+        "libra/jquery-assets":              "dev-default",
+        "libra/twitter-bootstrap-assets":   "dev-default",
+        "libra/libra-app":                  "dev-default",
+        "libra/libra-article":              "dev-default",
+        "libra/libra-locale":               "dev-default"
     },
 
     "require-dev": {
@@ -49,7 +51,7 @@
 
     "scripts": {
         "post-package-install":  "LibraInstaller\\Installer::postPackageInstall",
-        "pre-package-uninstall": "LibraInstaller\\Installer::prePackageUnistall"
+        "pre-package-uninstall": "LibraInstaller\\Installer::prePackageUninstall"
     }
 
 }
