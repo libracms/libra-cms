@@ -19,12 +19,12 @@
     "require": {
         "php":                              ">=5.3.3",
         "libra/libra-installer":            "dev-default",
-        "zendframework/zendframework":      "2.0.0",
-        "doctrine/common":                  ">=2.3.0-RC, <2.3.99",
-        "doctrine/dbal":                    ">=2.3.0-RC, <2.3.99",
+        "zendframework/zendframework":      ">=2.0.0, <2.0.99",
+        "doctrine/common":                  "2.3.*@RC",
+        "doctrine/dbal":                    "2.3.*@RC",
         "symfony/console":                  ">=2.1.0, <2.1.99",
         "symfony/yaml":                     ">=2.1.0, <2.1.99",
-        "doctrine/orm":                     ">=2.3.0-RC, <2.3.99",
+        "doctrine/orm":                     "2.3.*@RC",
         "doctrine/data-fixtures":           "dev-master",
         "doctrine/migrations":              "dev-master",
         "doctrine/doctrine-module":         "dev-master",
@@ -44,9 +44,6 @@
     },
 
     "require-dev": {
-        "zendframework/zendframework": "dev-master",
-        "doctrine/doctrine-orm-module": "dev-master",
-        "zf-commons/zfc-user-doctrine-orm": "dev-master"
     },
 
     "provide": {
@@ -54,7 +51,8 @@
     },
 
     "sugest": {
-        "libra/jquery-ui-assets": "Add jQuery User Interface library that will be installed in public dir"
+        "libra/jquery-ui-assets": "Add jQuery User Interface library that will be installed in public dir",
+        "libra/zendframework":    "Provede lighter zendframework library without tests"
     },
 
     "scripts": {
