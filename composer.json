@@ -29,11 +29,17 @@
         "doctrine/migrations":              "dev-master",
         "doctrine/doctrine-module":         "dev-master",
         "doctrine/doctrine-orm-module":     "dev-master",
+        "zf-commons/zfc-base":              "dev-master",
+        "zf-commons/zfc-user":              "dev-master",
+        "zf-commons/zfc-user-doctrine-orm": "dev-master",
         "libra/libra":                      "dev-default",
         "libra/jquery-assets":              "dev-default",
         "libra/twitter-bootstrap-assets":   "dev-default",
         "libra/libra-app":                  "dev-default",
         "libra/libra-article":              "dev-default",
+        "libra/ckeditor-assets":            "dev-default",
+        "libra/ckfinder-assets":            "dev-default",
+        "libra/libra-navigation":           "dev-default",
         "libra/libra-locale":               "dev-default"
     },
 
@@ -48,7 +54,7 @@
     },
 
     "sugest": {
-
+        "libra/jquery-ui-assets": "Add jQuery User Interface library that will be installed in public dir"
     },
 
     "scripts": {

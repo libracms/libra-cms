@@ -13,7 +13,7 @@ return array(
         'ZfcBase',
         'ZfcUser',
         'ZfcUserDoctrineORM',
-        'Test',
+        //'Test',
     ),
     'module_listener_options' => array(
         'config_glob_paths'    => array(
@@ -25,8 +25,11 @@ return array(
         'module_paths' => array(
             './module',
             './vendor',
-            //for ModuleAutoloader, if installed by composer it would not be necessary
-            'Libra'          => './vendor/libra/libra',
+            /*
+             * for ModuleAutoloader, if installed by composer. 
+             * It doesn't necessary if it was installed directly in vendor dir.
+             */
+            'Libra'             => './vendor/libra/libra',
             'LibraApp'          => './vendor/libra/libra-app',
             'LibraArticle'      => './vendor/libra/libra-article',
             'LibraNavigation'   => './vendor/libra/libra-navigation',
