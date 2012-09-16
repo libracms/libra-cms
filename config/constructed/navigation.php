@@ -20,23 +20,18 @@ return array(
                 'controller' => 'index', //hack for removing active class
             ),
             array(
-                'route'      => 'admin/home',
-                'label'      => 'Administration',
-                'controller' => 'index',
-            ),
-            array(
-                'route'      => 'default',
-                'label'      => 'Default router with module and alias params',
+                'label'      => 'English menu item',
+                'route'      => 'libra-article',
                 'params'     => array(
-                    'module' => 'libra-article',
-                    'param'  => 'ru-page',
+                    'alias' => 'en-page',
                 ),
             ),
             array(
-                'label'      => 'Rus article',
+                'label'      => 'Rus menu item',
                 'route'      => 'libra-article',
                 'params'     => array(
                     'alias' => 'ru-page',
+                    'locale' => 'ru-RU',
                 ),
             ),
             array(
@@ -62,28 +57,18 @@ return array(
                     'locale' => 'ru',
                 ),
             ),
-            /*array(
-                'route'      => 'libra-user',
-                'label'      => 'User',
-            ),*/
             array(
-                'route'      => 'admin/libra-article/articles',
-                'label'      => 'Admin article',
+                'route'      => 'libra-article',
+                'label'      => 'Roadmap',
+                'params'     => array(
+                    'alias' => 'roadmap',
+                ),
+            ),
+            array(
+                'route'      => 'admin/home',
+                'label'      => 'Administration',
                 'controller' => 'index',
             ),
-            /*array(
-                'type'       => 'uri',
-                'label'      => 'User Menu',
-                'class'      => 'nav-header',
-            ),
-            array(
-                'route'      => 'zfcuser',
-                'label'      => 'zfcuser',
-            ),
-            array(
-                'route'      => 'zfcuser/logout',
-                'label'      => 'zfcuser logout',
-            ),*/
         ),
 
         'leftmenu' => array(
