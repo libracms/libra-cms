@@ -12,28 +12,32 @@
  */
 
 return array(
-    'di' => array(
-        'instance' => array(
-            'alias' => array(
-                //DB adapter alias
-                'db_driver' => 'Zend\Db\Adapter\Driver\Pdo\Pdo',
-            ),
-            'Zend\Db\Adapter\Adapter' => array(
-                'parameters' => array(
-                    'driver' => 'db_driver',
+    'doctrine' => array(
+        'connection' => array(
+            'orm_default' => array(
+                'driverClass' => 'Doctrine\DBAL\Driver\PDOMySql\Driver',
+                'doctrineTypeMappings' => array(
+                    'enum' => 'string',
                 ),
-            ),
-            'Zend\Db\Adapter\Driver\Pdo\Pdo' => array(
-                'parameters' => array(
-                    'connection' => array(
-                        'dsn'       => 'mysql:dbname=libra;host=localhost',
-                        'user'      => 'libra',
-                        'password'  => 'password',
-                        'driver_options' => array(
-                            PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
-                        ),
+                'params' => array(
+                    'host'     => 'localhost',
+                    'port'     => '3306',
+                    'user'     => 'libra-cms',
+                    'password' => 'password',
+                    'dbname'   => 'libra-cms',
+                    'charset'  => 'UTF8',
+                    //for php < 5.3.5
+                    'driverOptions' => array(
+                        PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
                     ),
+                    //'memory'        => true,
                 ),
+            ),
+        ),
+        'configuration' => array(
+            'orm_default' => array(
+//                'driver'           => 'orm_default',
+                'generate_proxies' => false,
             ),
         ),
     ),
