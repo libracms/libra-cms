@@ -11,6 +11,7 @@
 
 ^vendor$
 ^vendor/zendframework$
+^bin$
 ^data/cache$
 ^config/autoload/local\.php$
 ^config/autoload/.*local\.php$
