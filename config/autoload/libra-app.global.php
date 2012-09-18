@@ -1,5 +1,6 @@
 <?php
 $config = array(
+    //name of template
     'layoutName' => 'default',
     'adminLayoutName' => 'default',
     /**

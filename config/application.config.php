@@ -14,6 +14,7 @@ return array(
         'ZfcUser',
         'ZfcUserDoctrineORM',
         //'Test',
+        'MyModule',
     ),
     'module_listener_options' => array(
         'config_glob_paths'    => array(

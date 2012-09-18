@@ -65,6 +65,10 @@ return array(
                 ),
             ),
             array(
+                'route'      => 'my-module',
+                'label'      => 'You can change this module',
+            ),
+            array(
                 'route'      => 'admin/home',
                 'label'      => 'Administration',
                 'controller' => 'index',
