@@ -18,7 +18,7 @@
 
     "require": {
         "php":                              ">=5.3.3",
-        "libra/libra-installer":            "dev-default",
+        "libra/libra-assets-installer":     "dev-default",
         "zendframework/zendframework":      ">=2.0.0, <2.0.99",
         "doctrine/common":                  "2.3.*@RC",
         "doctrine/dbal":                    "2.3.*@RC",
@@ -56,8 +56,8 @@
     },
 
     "scripts": {
-        "post-package-install":  "LibraInstaller\\Installer::postPackageInstall",
-        "pre-package-uninstall": "LibraInstaller\\Installer::prePackageUninstall"
+        "post-package-install":  "LibraAssetsInstaller\\Installer::postPackageInstall",
+        "pre-package-uninstall": "LibraAssetsInstaller\\Installer::prePackageUninstall"
     }
 
 }
