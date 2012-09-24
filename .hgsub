@@ -1,4 +1,4 @@
-;module/MyModule = https://bitbucket.org/libracms/my-module
+module/MyModule = https://bitbucket.org/libracms/my-module
 ;vendor/ZfcBase = [git]https://github.com/ZF-Commons/ZfcBase.git
 ;vendor/ZfcUser = [git]https://github.com/ZF-Commons/ZfcUser.git
 ;vendor/TwitterBootstrapFormDecorators = [git]https://github.com/mwillbanks/TwitterBootstrapFormDecorators.git
