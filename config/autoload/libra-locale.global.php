@@ -11,6 +11,9 @@ $config = array(
         'ru-UA',
         'uk-UA',
     ),
+    //set 301 for permanent
+    //set 302 for temporary
+    'redirect_code' => '302',
 );
 
 return array(

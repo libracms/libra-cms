@@ -4,6 +4,7 @@ return array(
         'DoctrineModule',
         'DoctrineORMModule',
         'Libra',
+        'LibraModuleManager',
         'LibraApp',
         'LibraArticle',
         'LibraNavigation',
@@ -41,6 +42,7 @@ return array(
             'LibraUser'         => './vendor/libra/libra-user',
             'LibraLocale'       => './vendor/libra/libra-locale',
             'LibraMarkdown'     => './vendor/libra/libra-markdown',
+            'LibraModuleManager'=> './vendor/libra/libra-module-manager',
         ),
     ),
     'service_manager' => array(
