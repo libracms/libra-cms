@@ -10,11 +10,14 @@ return array(
         //'LibraAdmin',
         //'LibraUser',
         'LibraLocale',
+        'LibraMarkdown',
         'ZfcBase',
         'ZfcUser',
         'ZfcUserDoctrineORM',
         //'Test',
         'MyModule',
+        //'DluTwBootstrap',
+        //'DluTwBootstrapDemo',
     ),
     'module_listener_options' => array(
         'config_glob_paths'    => array(
@@ -27,7 +30,7 @@ return array(
             './module',
             './vendor',
             /*
-             * for ModuleAutoloader, if installed by composer. 
+             * for ModuleAutoloader, if not installed by composer.
              * It doesn't necessary if it was installed directly in vendor dir.
              */
             'Libra'             => './vendor/libra/libra',
@@ -37,6 +40,7 @@ return array(
             //'LibraAdmin'        => './vendor/libra/libra-admin',
             'LibraUser'         => './vendor/libra/libra-user',
             'LibraLocale'       => './vendor/libra/libra-locale',
+            'LibraMarkdown'     => './vendor/libra/libra-markdown',
         ),
     ),
     'service_manager' => array(

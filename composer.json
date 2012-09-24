@@ -40,6 +40,7 @@
         "libra/ckeditor-assets":            "dev-default",
         "libra/ckfinder-assets":            "dev-default",
         "libra/libra-navigation":           "dev-default",
+        "libra/libra-markdown":             "dev-default",
         "libra/libra-locale":               "dev-default"
     },
 
