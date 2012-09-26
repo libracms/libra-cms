@@ -1,12 +1,12 @@
 <?php
 $config = array(
     //default locale, not alias
-    'default' => 'en-US',
+    'default' => 'en_US',
     'locales' => array(
         //alias => langtag
-        'en' => 'en-US',
+        'en' => 'en_US',
         'en-GB',
-        'ru' => 'ru-RU',
+        'ru' => 'ru_RU',
         'fr',
         'ru-UA',
         'uk-UA',

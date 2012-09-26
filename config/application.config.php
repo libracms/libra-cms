@@ -19,6 +19,7 @@ return array(
         'MyModule',
         //'DluTwBootstrap',
         //'DluTwBootstrapDemo',
+        'LibraArticleImageZooming',
     ),
     'module_listener_options' => array(
         'config_glob_paths'    => array(
@@ -43,6 +44,7 @@ return array(
             'LibraLocale'       => './vendor/libra/libra-locale',
             'LibraMarkdown'     => './vendor/libra/libra-markdown',
             'LibraModuleManager'=> './vendor/libra/libra-module-manager',
+            'LibraArticleImageZooming'  => './vendor/libra/libra-article-image-zooming',
         ),
     ),
     'service_manager' => array(
