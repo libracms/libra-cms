@@ -19,7 +19,7 @@ return array(
         'MyModule',
         //'DluTwBootstrap',
         //'DluTwBootstrapDemo',
-        'LibraArticleImageZooming',
+        //'LibraArticleImageZooming',
     ),
     'module_listener_options' => array(
         'config_glob_paths'    => array(
