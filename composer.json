@@ -35,6 +35,7 @@
         "libra/libra":                      "dev-default",
         "libra/libra-module-manager":       "dev-default",
         "libra/jquery-assets":              "dev-default",
+        "libra/jquery-ui-assets":           "dev-default",
         "libra/twitter-bootstrap-assets":   "dev-default",
         "libra/libra-app":                  "dev-default",
         "libra/libra-article":              "dev-default",
