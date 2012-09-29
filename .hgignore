@@ -15,6 +15,7 @@
 ^data/cache$
 ^config/autoload/local\.php$
 ^config/autoload/.*local\.php$
+^composer.lock$
 
 ^public/vendor$
 ^public/images/stories$
