@@ -41,6 +41,8 @@
         "libra/libra-article":              "dev-default",
         "libra/ckeditor-assets":            "dev-default",
         "libra/ckfinder-assets":            "dev-default",
+        "libra/fancybox-assets":            "dev-default",
+        "libra/libra-article-image-zooming":"dev-default",
         "libra/libra-navigation":           "dev-default",
         "libra/libra-markdown":             "dev-default",
         "libra/libra-locale":               "dev-default"
