@@ -5,7 +5,7 @@
     "keywords":     ["zf", "zf2", "zendframework", "cms"],
     "homepage":     "http://www.libra-cms.ejoom.com",
     "time":         "2012-04-21",
-    "licence":      "BSD-3-Clause",
+    "license":      "BSD-3-Clause",
     "authors": [
         {"name": "duke", "email": "duke@ejoom.com", "role": "maintainer, developer", "homepage": "http://www.ejoom.com"}
     ],
@@ -20,15 +20,15 @@
         "php":                              ">=5.3.3",
         "libra/libra-assets-installer":     "dev-default",
         "zendframework/zendframework":      ">=2.0.0, <2.0.99",
-        "doctrine/common":                  "2.3.*@RC",
-        "doctrine/dbal":                    "2.3.*@RC",
-        "symfony/console":                  ">=2.1.0, <2.1.99",
-        "symfony/yaml":                     ">=2.1.0, <2.1.99",
-        "doctrine/orm":                     "2.3.*@RC",
-        "doctrine/data-fixtures":           "dev-master",
-        "doctrine/migrations":              "dev-master",
-        "doctrine/doctrine-module":         "dev-master",
-        "doctrine/doctrine-orm-module":     "dev-master",
+        "doctrine/common":                  "2.3.*",
+        "doctrine/dbal":                    "2.3.*",
+        "symfony/console":                  ">=2.0.0, <2.1.99",
+        "symfony/yaml":                     ">=2.0.0, <2.1.99",
+        "doctrine/orm":                     "2.3.*",
+        "doctrine/data-fixtures":           "1.*@dev",
+        "doctrine/migrations":              "1.*@dev",
+        "doctrine/doctrine-module":         "0.5.2@dev",
+        "doctrine/doctrine-orm-module":     "0.5.2@dev",
         "zf-commons/zfc-base":              "dev-master",
         "zf-commons/zfc-user":              "dev-master",
         "zf-commons/zfc-user-doctrine-orm": "dev-master",
@@ -45,6 +45,7 @@
         "libra/libra-article-image-zooming":"dev-master",
         "libra/libra-navigation":           "dev-default",
         "libra/libra-markdown":             "dev-default",
+        "leafo/lessphp":                    ">=0.3.8",
         "libra/libra-locale":               "dev-default"
     },
 
@@ -55,7 +56,7 @@
       
     },
 
-    "sugest": {
+    "suggest": {
         "libra/jquery-ui-assets": "Add jQuery User Interface library that will be installed in public dir",
         "libra/zendframework":    "Provede lighter zendframework library without tests"
     },
