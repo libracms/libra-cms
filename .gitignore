@@ -4,6 +4,7 @@ nbproject
 .project
 .settings/
 tmp/
+public/tmp
 .DS_Store
 composer.lock
 .*.sw*
