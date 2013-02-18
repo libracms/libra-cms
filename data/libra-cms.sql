@@ -71,8 +71,9 @@ CREATE TABLE IF NOT EXISTS `user` (
   `user_id` int(11) NOT NULL AUTO_INCREMENT,
   `username` varchar(255) DEFAULT NULL,
   `email` varchar(255) DEFAULT NULL,
-  `display_name` varchar(512) DEFAULT NULL,
+  `display_name` varchar(50) DEFAULT NULL,
   `password` varchar(128) NOT NULL,
+  `state` smallint(6) DEFAULT NULL,
   PRIMARY KEY (`user_id`),
   UNIQUE KEY `email` (`email`),
   UNIQUE KEY `username` (`username`)
@@ -82,15 +83,15 @@ CREATE TABLE IF NOT EXISTS `user` (
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`user_id`, `username`, `email`, `display_name`, `password`) VALUES
-(1, 'duke', 'duke@ejoom.com', 'Vitalii Nagara', '$2a$14$XDWefi3Du3U8KOkbj.zhyuF9AuA4FoKkQj7eiLNfwd3k8ebfj33Fu'),
-(2, NULL, 'test@gmail.com', 'Test Name', '$2a$10$425MVLPEgYNRyk5FCcj7cO.FEiasdf.GAgubbNkkCWU/7UWdjt1y2'),
-(3, NULL, 'some@mail.com', 'Some Name', '$2a$10$oLUweOnw.mXn3Uz5hYI44uP5bF61qHDLcIUa.JxHPhr.LWB6a5x7i'),
-(4, NULL, 'test2@gmail.com', 'Test2 name', ''),
-(5, NULL, 'director@phys.asm.md', 'director', '$2a$10$prrJBQ.UB1qslDhbsmvlBu0nQhiFM81/YiK6.4lyduKJfArmJ90L.'),
-(6, NULL, 'sdf@fd2.com', 'sdf@fd2.com', '$2a$10$QNtbUu0wSumPyNN2k0ABC.2bDOG6y7RRd9NWn1hu7OW4fyxuMhTwC'),
-(13, NULL, '', 'sdsdfsdf', ''),
-(21, NULL, 'test3@gmail.com', 'test3', '$2a$10$hSPHbrB8AqxvpuzYbRF5uOefO5J4odoYns2eiNjnPitobhTRELUwu'),
-(23, NULL, 'test4@gmail.com', 'test4', '$2a$10$CWR2cOC4/jrxqK00Sn.9Ve4BHN3w0xmfHDtMjRxTZDz7IorJEPQwu'),
-(24, NULL, NULL, 'Test Ip Localhost', ''),
-(25, 'admin', 'admin@your.mailserver.com', 'Admin', '$2a$14$H2y0DwR9u0eMCzuNwJxxc.niSUAbGM04CkH3aeKiFz.e8NFB2jYe2');
+INSERT INTO `user` (`user_id`, `username`, `email`, `display_name`, `password`, `state`) VALUES
+(1, 'duke', 'duke@ejoom.com', 'Vitalii Nagara', '$2a$14$XDWefi3Du3U8KOkbj.zhyuF9AuA4FoKkQj7eiLNfwd3k8ebfj33Fu', NULL),
+(2, NULL, 'test@gmail.com', 'Test Name', '$2a$10$425MVLPEgYNRyk5FCcj7cO.FEiasdf.GAgubbNkkCWU/7UWdjt1y2', NULL),
+(3, NULL, 'some@mail.com', 'Some Name', '$2a$10$oLUweOnw.mXn3Uz5hYI44uP5bF61qHDLcIUa.JxHPhr.LWB6a5x7i', NULL),
+(4, NULL, 'test2@gmail.com', 'Test2 name', '', NULL),
+(5, NULL, 'director@phys.asm.md', 'director', '$2a$10$prrJBQ.UB1qslDhbsmvlBu0nQhiFM81/YiK6.4lyduKJfArmJ90L.', NULL),
+(6, NULL, 'sdf@fd2.com', 'sdf@fd2.com', '$2a$10$QNtbUu0wSumPyNN2k0ABC.2bDOG6y7RRd9NWn1hu7OW4fyxuMhTwC', NULL),
+(13, NULL, '', 'sdsdfsdf', '', NULL),
+(21, NULL, 'test3@gmail.com', 'test3', '$2a$10$hSPHbrB8AqxvpuzYbRF5uOefO5J4odoYns2eiNjnPitobhTRELUwu', NULL),
+(23, NULL, 'test4@gmail.com', 'test4', '$2a$10$CWR2cOC4/jrxqK00Sn.9Ve4BHN3w0xmfHDtMjRxTZDz7IorJEPQwu', NULL),
+(24, NULL, NULL, 'Test Ip Localhost', '', NULL),
+(25, 'admin', 'admin@your.mailserver.com', 'Admin', '$2a$14$FzPCttS3uiNoUlxDrbGOteAxvNeUnD.uVA1iQ2.UjK2/di24/GnM6', NULL);
