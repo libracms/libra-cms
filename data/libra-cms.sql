@@ -1,16 +1,23 @@
 -- phpMyAdmin SQL Dump
--- version 3.3.9.2
+-- version 3.5.4
 -- http://www.phpmyadmin.net
 --
--- Host: pma
--- Generation Time: Sep 16, 2012 at 11:15 PM
--- Server version: 5.1.41
--- PHP Version: 5.3.5-0.dotdeb.0
+-- Host: localhost
+-- Generation Time: Mar 02, 2013 at 02:38 PM
+-- Server version: 5.5.29-0ubuntu0.12.04.1
+-- PHP Version: 5.4.12-1~precise+1
 
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
 
 --
--- Database: `libra-cms`
+-- Database: `demo.libra-cms`
 --
 
 -- --------------------------------------------------------
@@ -94,4 +101,8 @@ INSERT INTO `user` (`user_id`, `username`, `email`, `display_name`, `password`, 
 (21, NULL, 'test3@gmail.com', 'test3', '$2a$10$hSPHbrB8AqxvpuzYbRF5uOefO5J4odoYns2eiNjnPitobhTRELUwu', NULL),
 (23, NULL, 'test4@gmail.com', 'test4', '$2a$10$CWR2cOC4/jrxqK00Sn.9Ve4BHN3w0xmfHDtMjRxTZDz7IorJEPQwu', NULL),
 (24, NULL, NULL, 'Test Ip Localhost', '', NULL),
-(25, 'admin', 'admin@your.mailserver.com', 'Admin', '$2a$14$FzPCttS3uiNoUlxDrbGOteAxvNeUnD.uVA1iQ2.UjK2/di24/GnM6', NULL);
+(25, 'admin', 'admin@your.mailserver.com', 'Admin', '$2y$14$ailJR1mrF08EcT7sQBNWyOqgk38V4nIEoUEGqmBcJFHg/lugt0why', NULL);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
