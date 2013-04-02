@@ -58,8 +58,9 @@
     },
 
     "suggest": {
-        "libra/jquery-ui-assets": "Add jQuery User Interface library that will be installed in public dir",
-        "libra/zendframework":    "Provede lighter zendframework library without tests"
+        "libra/jquery-ui-assets":       "Add jQuery User Interface library that will be installed in public dir",
+        "libra/zendframework":          "Provede lighter zendframework library without tests",
+        "libra/zendframework-codeless": "Resolve composer dependencies. Provede the lightest zendframework library without code. For global installed zf2 library."
     },
 
     "scripts": {
