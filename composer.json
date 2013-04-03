@@ -9,6 +9,11 @@
     "authors": [
         {"name": "duke", "email": "duke@ejoom.com", "role": "maintainer, developer", "homepage": "http://www.ejoom.com"}
     ],
+    "support": {
+        "email":    "duke@ejoom.com",
+        "irc":      "irc://irc.freenode.net/libracms",
+        "forum":    ""
+    },
 
     "config": {
         "bin-dir": "bin"
