@@ -1,0 +1,7 @@
+# Folder for ckfinder files. From this libra-article take images which will be inserted into articles.
+*
+!.gitignore
+# Add default image folder to repo
+!images/
+images/*
+!images/.placeholder
