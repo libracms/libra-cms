@@ -36,8 +36,9 @@ return array(
         ),
         'configuration' => array(
             'orm_default' => array(
-//                'driver'           => 'orm_default',
-                'generate_proxies' => false,
+                //'driver'           => 'orm_default',
+                // Generate proxies automatically (turn off for production)
+                'generate_proxies'  => true,
             ),
         ),
     ),
