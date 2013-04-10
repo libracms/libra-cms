@@ -106,14 +106,14 @@ return array(
                         'route'      => 'zfcuser/register',
                         'label'      => 'zfcuser register',
                     ),
-                    array(
-                        'route'      => 'zfcuser/changepassword',
-                        'label'      => 'zfcuser change-password',
-                    ),
-                    array(
-                        'route'      => 'zfcuser/changeemail',
-                        'label'      => 'zfcuser change-email',
-                    ),
+//                    array(
+//                        'route'      => 'zfcuser/changepassword',
+//                        'label'      => 'zfcuser change-password',
+//                    ),
+//                    array(
+//                        'route'      => 'zfcuser/changeemail',
+//                        'label'      => 'zfcuser change-email',
+//                    ),
                 ),
             ),
         ),
