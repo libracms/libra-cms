@@ -15,7 +15,7 @@ return array(
     'router' => array(
         'routes' => array(
             'libra-article' => array(
-                'priority' => $config['use_short_alias'] ? -1100 : null,
+                'priority' => $config['use_short_alias'] ? -100 : null,
                 'options' => array(
                     'locale_aware' => $config['consider_locale'],
                     'route' => ($config['use_short_alias'] ? '' : '/article') . '[/:alias]',
