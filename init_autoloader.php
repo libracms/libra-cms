@@ -3,7 +3,7 @@
  * Zend Framework (http://framework.zend.com/)
  *
  * @link      http://github.com/zendframework/ZendSkeletonApplication for the canonical source repository
- * @copyright Copyright (c) 2005-2012 Zend Technologies USA Inc. (http://www.zend.com)
+ * @copyright Copyright (c) 2005-2013 Zend Technologies USA Inc. (http://www.zend.com)
  * @license   http://framework.zend.com/license/new-bsd New BSD License
  */
 
@@ -16,21 +16,24 @@
  * most users, however, feel free to configure autoloading however you'd like.
  */
 
-
-//set for console
-//putenv('ZF2_PATH=/usr/share/zf2/library');
-
 // Composer autoloading
 if (file_exists('vendor/autoload.php')) {
     $loader = include 'vendor/autoload.php';
 }
 
-// Support for ZF2_PATH environment variable or git submodule
-if (($zf2Path = getenv('ZF2_PATH') ?: (is_dir('vendor/ZF2/library') ? 'vendor/ZF2/library' : false)) !== false) {
+$zf2Path = false;
+
+if (is_dir('vendor/ZF2/library')) {
+    $zf2Path = 'vendor/ZF2/library';
+} elseif (getenv('ZF2_PATH')) {      // Support for ZF2_PATH environment variable or git submodule
+    $zf2Path = getenv('ZF2_PATH');
+} elseif (get_cfg_var('zf2_path')) { // Support for zf2_path directive value
+    $zf2Path = get_cfg_var('zf2_path');
+}
+
+if ($zf2Path) {
     if (isset($loader)) {
         $loader->add('Zend', $zf2Path);
-        $loader->add('DoctrineModule', 'vendor/DoctrineModule/src');
-        $loader->add('DoctrineORMModule', 'vendor/DoctrineORMModule/src');
     } else {
         include $zf2Path . '/Zend/Loader/AutoloaderFactory.php';
         Zend\Loader\AutoloaderFactory::factory(array(
