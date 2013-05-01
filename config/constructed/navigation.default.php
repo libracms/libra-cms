@@ -1,0 +1,122 @@
+<?php
+return array (
+    array (
+        '_name' => 'mainmenu',
+        'type' => 'Zend\\Navigation\\Page\\Uri',
+        'label' => 'Main Menu',
+        'pages' => array (
+            array (
+                'type' => 'Zend\\Navigation\\Page\\Uri',
+                'label' => 'Main Menu',
+                'class' => 'nav-header',
+                'order' => -101,
+            ),
+            array (
+                'type' => 'Zend\\Navigation\\Page\\Mvc',
+                'label' => 'Home',
+                'title' => 'Go Home',
+                'order' => -100,
+                'controller' => 'index',
+                'route' => 'home',
+            ),
+            array (
+                'type' => 'Zend\\Navigation\\Page\\Mvc',
+                'label' => 'English menu item',
+                'params' => array (
+                    'alias' => 'en-page',
+                ),
+                'route' => 'libra-article',
+            ),
+            array (
+                'type' => 'Zend\\Navigation\\Page\\Mvc',
+                'label' => 'Rus menu item',
+                'params' => array (
+                    'alias' => 'ru-page',
+                    'locale' => 'ru-RU',
+                ),
+                'route' => 'libra-article',
+            ),
+            array (
+                'type' => 'Zend\\Navigation\\Page\\Mvc',
+                'label' => 'FAQ',
+                'title' => '',
+                'action' => '',
+                'controller' => '',
+                'params' => array (
+                    'alias' => '',
+                ),
+                'route' => 'libra-article',
+            ),
+            array (
+                'type' => 'Zend\\Navigation\\Page\\Mvc',
+                'label' => 'Multilanguage page EN',
+                'params' => array (
+                    'alias' => 'multilanguage',
+                    'locale' => 'en',
+                ),
+                'route' => 'libra-article',
+            ),
+            array (
+                'type' => 'Zend\\Navigation\\Page\\Mvc',
+                'label' => 'Мултиязыковая страница RU',
+                'params' => array (
+                    'alias' => 'multilanguage',
+                    'locale' => 'ru',
+                ),
+                'route' => 'libra-article',
+            ),
+            array (
+                'type' => 'Zend\\Navigation\\Page\\Mvc',
+                'label' => 'Roadmap',
+                'params' => array (
+                    'alias' => 'roadmap',
+                ),
+                'route' => 'libra-article',
+            ),
+            array (
+                'type' => 'Zend\\Navigation\\Page\\Mvc',
+                'label' => 'You can change this module',
+                'route' => 'my-module',
+            ),
+            array (
+                'type' => 'Zend\\Navigation\\Page\\Mvc',
+                'label' => 'Administration',
+                'controller' => 'index',
+                'route' => 'admin/home',
+            ),
+        ),
+    ),
+    array (
+        '_name' => 'usermenu',
+        'type' => 'Zend\\Navigation\\Page\\Uri',
+        'label' => 'User Menu',
+        'pages' => array (
+            array (
+                'type' => 'Zend\\Navigation\\Page\\Uri',
+                'label' => 'User Menu',
+                'class' => 'nav-header',
+                'order' => -101,
+            ),
+            array (
+                'type' => 'Zend\\Navigation\\Page\\Mvc',
+                'label' => 'zfcuser',
+                'route' => 'zfcuser',
+            ),
+            array (
+                'type' => 'Zend\\Navigation\\Page\\Mvc',
+                'label' => 'zfcuser logout',
+                'route' => 'zfcuser/logout',
+            ),
+            array (
+                'type' => 'Zend\\Navigation\\Page\\Mvc',
+                'label' => 'zfcuser login',
+                'route' => 'zfcuser/login',
+            ),
+            array (
+                'type' => 'Zend\\Navigation\\Page\\Mvc',
+                'label' => 'zfcuser register',
+                'route' => 'zfcuser/register',
+            ),
+        ),
+    ),
+);

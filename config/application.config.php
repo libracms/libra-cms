@@ -24,7 +24,8 @@ return array(
     'module_listener_options' => array(
         'config_glob_paths'    => array(
             'config/autoload/{,*.}{global,local}.php',
-            'config/constructed/*.php',
+            'config/constructed/admin-navigation.php',
+            'config/constructed/navigation.php',
         ),
         'config_cache_enabled' => false,
         'cache_dir'            => 'data/cache',

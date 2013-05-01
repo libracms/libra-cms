@@ -11,7 +11,7 @@ return array(
                 'label'      => 'Administration',
             ),
             array(
-                'route'      => 'admin/libra-navigation/containers',
+                'route'      => 'admin/libra-navigation/pages',
                 'label'      => 'Navigation',
             ),
             array(
