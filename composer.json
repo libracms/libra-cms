@@ -72,7 +72,8 @@
 
     "scripts": {
         "post-package-install":  "LibraAssetsInstaller\\Installer::postPackageInstall",
-        "pre-package-uninstall": "LibraAssetsInstaller\\Installer::prePackageUninstall"
+        "pre-package-uninstall": "LibraAssetsInstaller\\Installer::prePackageUninstall",
+        "post-package-update":   "LibraAssetsInstaller\\Installer::postPackageUpdate"
     }
 
 }
