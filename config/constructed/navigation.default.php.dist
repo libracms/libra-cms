@@ -43,7 +43,7 @@ return array (
                 'action' => '',
                 'controller' => '',
                 'params' => array (
-                    'alias' => '',
+                    'alias' => 'faq',
                 ),
                 'route' => 'libra-article',
             ),

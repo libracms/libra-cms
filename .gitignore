@@ -1,11 +1,13 @@
-nbproject
+/nbproject
 .idea
 .buildpath
 .project
 .settings/
-tmp/
-public/tmp
+/tmp/
+/public/tmp/
 .DS_Store
-composer.lock
+/composer.lock
 .*.sw*
 .*.un~
+
+/config/constructed/
