@@ -5,7 +5,9 @@
 return array(
     'navigation' => array(
         //array of \Zend\Navigation\Page\PageAbstract
-        'default' => include __DIR__ . '/navigation.default.php',
-        'second'  => include __DIR__ . '/navigation.second.php',
+        'default' => file_exists(__DIR__ . '/navigation.default.php') ? include __DIR__ . '/navigation.default.php'
+            : include __DIR__ . '/navigation.default.php.dist',
+        'second'  => file_exists(__DIR__ . '/navigation.second.php') ? include __DIR__ . '/navigation.second.php'
+            : include __DIR__ . '/navigation.second.php.dist',
     ),
 );
