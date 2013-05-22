@@ -101,7 +101,7 @@ INSERT INTO `user` (`user_id`, `username`, `email`, `display_name`, `password`, 
 (21, NULL, 'test3@gmail.com', 'test3', '$2a$10$hSPHbrB8AqxvpuzYbRF5uOefO5J4odoYns2eiNjnPitobhTRELUwu', NULL),
 (23, NULL, 'test4@gmail.com', 'test4', '$2a$10$CWR2cOC4/jrxqK00Sn.9Ve4BHN3w0xmfHDtMjRxTZDz7IorJEPQwu', NULL),
 (24, NULL, NULL, 'Test Ip Localhost', '', NULL),
-(25, 'admin', 'admin@your.mailserver.com', 'Admin', '$2y$14$ailJR1mrF08EcT7sQBNWyOqgk38V4nIEoUEGqmBcJFHg/lugt0why', NULL);
+(25, 'admin', 'admin@your.mailserver.com', 'Admin', '$2a$14$UKBeR46BNvuZYy5XKn8DKupRzgUgwoXY/Oy8thZ4IVjDbfwgwTtvG', NULL);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
