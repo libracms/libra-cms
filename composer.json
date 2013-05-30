@@ -24,7 +24,7 @@
     "require": {
         "php":                              ">=5.3.3",
         "libra/libra-assets-installer":     "dev-master",
-        "zendframework/zendframework":      "~2.1.0",
+        "zendframework/zendframework":      "~2.2.0",
         "doctrine/common":                  "~2.3.0",
         "doctrine/dbal":                    "~2.3.0",
         "symfony/console":                  "~2.1.0",

@@ -51,7 +51,7 @@ return array(
     'service_manager' => array(
         'use_defaults' => true,
         'factories'    => array(
-            'Translator' => 'Zend\I18n\Translator\TranslatorServiceFactory',
+            //'Translator' => 'Zend\I18n\Translator\TranslatorServiceFactory',
             'Navigation' => 'Zend\Navigation\Service\DefaultNavigationFactory',
             'SecondNavigation' => 'LibraApp\Service\SecondNavigationFactory',
             'AdminNavigation'  => 'LibraApp\Service\AdminNavigationFactory',
