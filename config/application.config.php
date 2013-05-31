@@ -17,6 +17,7 @@ return array(
         'ZfcUserDoctrineORM',
         //'Test',
         'MyModule',
+        'Application',
         //'DluTwBootstrap',
         //'DluTwBootstrapDemo',
         'LibraArticleImageZooming',
