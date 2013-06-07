@@ -3,7 +3,7 @@
     "type":         "library",
     "description":  "Default application for Libra CMS",
     "keywords":     ["zf", "zf2", "zendframework", "cms"],
-    "homepage":     "http://www.libra-cms.ejoom.com",
+    "homepage":     "http://www.ejoom.com/libra-cms/",
     "time":         "2012-04-21",
     "license":      "BSD-3-Clause",
     "authors": [
