@@ -27,6 +27,7 @@ return array(
             'config/autoload/{,*.}{global,local}.php',
             'config/constructed/admin-navigation.php',
             'config/constructed/navigation.php',
+            'config/config.php',
         ),
         'config_cache_enabled' => false,
         'cache_dir'            => 'data/cache',

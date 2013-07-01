@@ -1,0 +1,25 @@
+<?php
+/**
+ * configs what you can use in project
+ */
+
+return array(
+    'config' => array(
+        //category general
+        'general' => array (
+            'name' => 'General',
+            'data' => array(
+                'new_article_period' => 5,
+                'menu_position' => 11,
+                'file_upload_path' => 'data/journal',
+            ),
+        ),
+        //category tanalsation
+        'translation' => array(
+            'name' => 'Translation',
+            'data' => array (
+                'some translatable text' => 'translation into another language',
+            ),
+        ),
+    ),
+);
