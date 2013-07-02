@@ -18,6 +18,28 @@ return array(
                 'route'      => 'admin/libra-article/articles',
                 'label'      => 'Article',
             ),
+            /*array(
+                'type'          => 'uri',
+                'label'         => 'Configuratuon',
+                'pages'         => array(
+                    array(
+                        'route'         => 'admin/libra-app/config/general',
+                        'label'         => 'General',
+                        'action'        => 'edit',
+                    ),
+                    array(
+                        'route'         => 'admin/default',
+                        'label'         => 'Translation',
+                        'controller'    => 'translation',
+                        'action'        => 'edit',
+                    ),
+                ),
+            ),
+            array(
+                'route'         => 'admin/libra-app/index',
+                'label'         => 'Help',
+                'action'        => 'help',
+            ),*/
         ),
     ),
 );

@@ -53,7 +53,9 @@
         "libra/libra-markdown":             "dev-master",
         "michelf/php-markdown":             "dev-lib",
         "leafo/lessphp":                    ">=0.3.8",
-        "libra/libra-locale":               "dev-master"
+        "libra/libra-locale":               "dev-master",
+        "dlu/dlutwbootstrap":               "~0.1.4",
+        "dlu/dlutwbootstrapdemo":           "~0.1.2"
     },
 
     "require-dev": {

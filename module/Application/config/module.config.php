@@ -54,5 +54,8 @@ return array(
         'template_path_stack' => array(
             __DIR__ . '/../view',
         ),
+        'template_map' => array(
+            'layout/layouttwb-demo' => __DIR__ . '/../view/layout/layouttwb-demo.phtml',
+        ),
     ),
 );
