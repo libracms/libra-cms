@@ -16,6 +16,7 @@ return array(
         'ZfcBase',
         'ZfcUser',
         'ZfcUserDoctrineORM',
+        'ZfcTwitterBootstrap',
         'DluTwBootstrap',
         'DluTwBootstrapDemo',
         //'Test',

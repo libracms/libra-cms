@@ -36,9 +36,19 @@ return array(
                 ),
             ),
             array(
-                'route'         => 'admin/libra-app/index',
+                'type'          => 'uri',
                 'label'         => 'Help',
-                'action'        => 'help',
+                'pages'         => array(
+                    array(
+                        'route'         => 'admin/libra-app/index',
+                        'label'         => 'About Libra CMS',
+                        'action'        => 'help',
+                    ),
+                    array(
+                        'route'         => 'dlu_twb_demo_demo',
+                        'label'         => 'DluTwBootstrap Forms Demo',
+                    ),
+                ),
             ),*/
         ),
     ),
