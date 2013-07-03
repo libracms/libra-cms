@@ -11,7 +11,7 @@ return array(
                         'action'     => '[a-zA-Z][a-zA-Z0-9_-]*',
                     ),
                     'defaults' => array(
-                        '__NAMESPACE__' => 'Application',
+                        '__NAMESPACE__' => 'Application\Controller',
                         'controller' => 'Index',
                         'action'     => 'index',
                     ),
@@ -28,7 +28,7 @@ return array(
                                 'action'     => '[a-zA-Z][a-zA-Z0-9_-]*',
                             ),
                             'defaults' => array(
-                                '__NAMESPACE__' => 'Application',
+                                '__NAMESPACE__' => 'Application\Controller',
                                 'controller' => 'Index',
                                 'action'     => 'index',
                             ),
@@ -46,8 +46,8 @@ return array(
     ),
     'controllers' => array(
         'invokables' => array(
-            'Application\Index'             => 'Application\Controller\IndexController',
-            'Application\AdminIndex'                => 'MyModule\Controller\AdminIndexController',  //for 2 tabs far for admin controllers
+            'Application\Controller\Index'          => 'Application\Controller\IndexController',
+            'Application\Controller\AdminIndex'             => 'MyModule\Controller\AdminIndexController',  //for 2 tabs far for admin controllers
         ),
     ),
     'view_manager' => array(
