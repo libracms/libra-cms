@@ -19,6 +19,7 @@ return array(
         'ZfcTwitterBootstrap',
         'DluTwBootstrap',
         'DluTwBootstrapDemo',
+        //'ZendDeveloperTools',
         //'Test',
         'MyModule', //deprecated as of 0.3.5. Transfer it to Application module. Will be removed at 0.4.0
         'Application',

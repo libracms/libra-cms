@@ -56,7 +56,8 @@
         "libra/libra-locale":               "dev-master",
         "mwillbanks/zfc-twitter-bootstrap": "@dev",
         "dlu/dlutwbootstrap":               "~0.1.4",
-        "dlu/dlutwbootstrapdemo":           "~0.1.2"
+        "dlu/dlutwbootstrapdemo":           "~0.1.2",
+        "zendframework/zend-developer-tools": "0.*"
     },
 
     "require-dev": {
