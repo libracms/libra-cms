@@ -1,13 +1,13 @@
 {
     "name":         "libra/libra-cms",
-    "type":         "library",
-    "description":  "Default application for Libra CMS",
-    "keywords":     ["zf", "zf2", "zendframework", "cms"],
+    "type":         "project",
+    "description":  "ZF2 based CMS that allows easily create your own web-site with necessary tools like article menagment",
+    "keywords":     ["zf", "zf2", "zend framework", "cms"],
     "homepage":     "http://www.ejoom.com/libra-cms/",
     "time":         "2012-04-21",
     "license":      "BSD-3-Clause",
     "authors": [
-        {"name": "duke", "email": "duke@ejoom.com", "role": "maintainer, developer", "homepage": "http://www.ejoom.com"}
+        {"name": "duke", "email": "duke@ejoom.com", "role": "maintainer, developer", "homepage": "https://www.facebook.com/vnagara"}
     ],
     "support": {
         "email":    "duke@ejoom.com",
@@ -63,6 +63,11 @@
     "require-dev": {
         "phpunit/phpunit":                  "~3.7.0",
         "phpunit/php-invoker":              "~1.1.0"
+    },
+
+    "autoload": {
+        "psr-0": {"Application\\": "module/Application/src/"},
+        "classmap": ["module/Application/Module.php"]
     },
 
     "provide": {
