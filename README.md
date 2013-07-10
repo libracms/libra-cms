@@ -4,10 +4,6 @@
 Libra CMS
 =======================
 
-Introduction
-------------
-This project
-
 Concepts
 ------------
 It should be easy to use.
@@ -16,22 +12,22 @@ It should be easy to add new module
 
 Installation
 ------------
-Using Composer (recommended)
-----------------------------
-1.  Create virtual hosting and Mysql DB with user and privileges.
-2.  Clone or donwload [repo](https://bitbucket.org/libracms/libra-cms) in virtual host directory.
-    For clone use '--recursive'
 
-    git clone --recursive https://bitbucket.org/libracms/libra-cms.git
+###Using Composer (recommended, updated)
 
-3.  Download if necessary [composer.phar](http://getcomposer.org/download/) and run `php composer.phar update`.
-4.  Copy *config/autoload/*.dist* files to php configs and set properly DB name and access. Export SQL from data/libra-cms.sql
-5. Add write permissions to:
-    *public/images/stories*
-6. Test and enjoy of your just installed site :).
+1. Download if necessary [composer.phar](http://getcomposer.org/download/) and 
+   run `php composer.phar create-project libra/libra-cms libra-cms`
+2. Go to installed dir __libra-cms__. Copy __config/autoload/local.php.dist__ files to __local.php__ and fit parameters
+   to properly DB name and user name/password. Export SQL from __data/libra-cms.sql__ to DB.
+3. Run `php -S localhost:8080 -t public` (assumed that you are inside installed folder).
+4. Enjoy!
 
-Default administration user: *admin*, pass: *libra-cms*.
+Default administration user: __admin__, pass: __libra-cms__.
 
-Change __pubic/robots.txt__ file to your demands.
+Thin configuration:
+-----------------
+1. Add write permissions for running script user to:
+   __public/images/stories__ for save images by editing article.
+2. Change __pubic/robots.txt__ file to your demands.
 
-*Thanks for using this CMS.*
+*Thanks for trying Libra CMS.*
