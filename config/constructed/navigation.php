@@ -9,5 +9,7 @@ return array(
             : include __DIR__ . '/navigation.default.php.dist',
         'second'  => file_exists(__DIR__ . '/navigation.second.php') ? include __DIR__ . '/navigation.second.php'
             : include __DIR__ . '/navigation.second.php.dist',
+        'admin-default' => file_exists(__DIR__ . '/navigation.admin-default.php') ? include __DIR__ . '/navigation.admin-default.php'
+            : include __DIR__ . '/navigation.admin-default.php.dist',
     ),
 );
