@@ -29,16 +29,11 @@ return array(
                             ),
                             'defaults' => array(
                                 '__NAMESPACE__' => 'Application\Controller',
-                                'controller' => 'Index',
+                                'controller' => 'AdminIndex',
                                 'action'     => 'index',
                             ),
                         ),
                         'may_terminate' => true,
-                        'child_routes' => array(
-                            'query' => array(
-                                'type' => 'Query',
-                            ),
-                        ),
                     ),
                 ),
             ),
@@ -47,7 +42,7 @@ return array(
     'controllers' => array(
         'invokables' => array(
             'Application\Controller\Index'          => 'Application\Controller\IndexController',
-            'Application\Controller\AdminIndex'             => 'MyModule\Controller\AdminIndexController',  //for 2 tabs far for admin controllers
+            'Application\Controller\AdminIndex'             => 'Application\Controller\AdminIndexController',  //for 2 tabs far for admin controllers
         ),
     ),
     'view_manager' => array(
