@@ -5,11 +5,11 @@
 return array(
     'navigation' => array(
         //array of \Zend\Navigation\Page\PageAbstract
-        'default' => file_exists(__DIR__ . '/navigation.default.php') ? include __DIR__ . '/navigation.default.php'
+        'default' => is_readable(__DIR__ . '/navigation.default.php') ? include __DIR__ . '/navigation.default.php'
             : include __DIR__ . '/navigation.default.php.dist',
-        'second'  => file_exists(__DIR__ . '/navigation.second.php') ? include __DIR__ . '/navigation.second.php'
+        'second'  => is_readable(__DIR__ . '/navigation.second.php') ? include __DIR__ . '/navigation.second.php'
             : include __DIR__ . '/navigation.second.php.dist',
-        'admin-default' => file_exists(__DIR__ . '/navigation.admin-default.php') ? include __DIR__ . '/navigation.admin-default.php'
+        'admin-default' => is_readable(__DIR__ . '/navigation.admin-default.php') ? include __DIR__ . '/navigation.admin-default.php'
             : include __DIR__ . '/navigation.admin-default.php.dist',
     ),
 );
