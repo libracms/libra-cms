@@ -1,6 +1,7 @@
 <?php
 return array(
     'modules' => array(
+        //vendor modules
         'DoctrineModule',
         'DoctrineORMModule',
         'Libra',
@@ -8,7 +9,6 @@ return array(
         'LibraApp',
         'LibraArticle',
         'LibraNavigation',
-        //'LibraAdmin',
         //'LibraUser',
         'LibraLocale',
         'LibraMarkdown',
@@ -21,7 +21,12 @@ return array(
         'DluTwBootstrapDemo',
         //'ZendDeveloperTools',
         //'Test',
-        //'MyModule', //deprecated as of 0.3.5. Transfer it to Application module. Will be removed at 0.4.0
+        'ZfcTwig',
+
+        //Put below YOUR modules. They will be in the last position to override rest of modules.
+
+
+        //keep main module in the last position for final configs.
         'Application',
     ),
     'module_listener_options' => array(
