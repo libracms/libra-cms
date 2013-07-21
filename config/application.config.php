@@ -16,12 +16,12 @@ return array(
         'ZfcBase',
         'ZfcUser',
         'ZfcUserDoctrineORM',
+        'ZfcTwig',
         'ZfcTwitterBootstrap',
         'DluTwBootstrap',
         'DluTwBootstrapDemo',
         //'ZendDeveloperTools',
         //'Test',
-        'ZfcTwig',
 
         //Put below YOUR modules. They will be in the last position to override rest of modules.
 

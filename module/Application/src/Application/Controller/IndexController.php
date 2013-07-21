@@ -14,4 +14,12 @@ class IndexController extends AbstractActionController
             'action' => __CLASS__ . '::index',
         ));
     }
+
+    public function twigAction()
+    {
+        return new ViewModel(array(
+            'content' => 'Put your content here',
+            'action' => __CLASS__ . '::tiwg',
+        ));
+    }
 }
