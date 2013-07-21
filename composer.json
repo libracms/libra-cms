@@ -37,6 +37,7 @@
         "zf-commons/zfc-base":              "0.*",
         "zf-commons/zfc-user":              "0.*",
         "zf-commons/zfc-user-doctrine-orm": "0.*",
+        "zf-commons/zfc-twig":              "~1.1",
         "libra/libra":                      "dev-master",
         "libra/libra-module-manager":       "dev-master",
         "libra/jquery-assets":              "~1.10.0",
@@ -57,7 +58,7 @@
         "mwillbanks/zfc-twitter-bootstrap": "@dev",
         "dlu/dlutwbootstrap":               "~0.1.4",
         "dlu/dlutwbootstrapdemo":           "~0.1.2",
-        "zf-commons/zfc-twig":              "~1.1",
+        "monolog/monolog":                  "~1.5",
         "zendframework/zend-developer-tools": "0.*"
     },
 
@@ -67,7 +68,10 @@
     },
 
     "autoload": {
-        "psr-0": {"Application\\": "module/Application/src/"},
+        "psr-0": {
+                "Application\\": "module/Application/src/",
+                "LibraCmsTest": "tests/LibraCmsTest"
+            },
         "classmap": ["module/Application/Module.php"]
     },
 
@@ -76,9 +80,7 @@
     },
 
     "suggest": {
-        "libra/jquery-ui-assets":       "Add jQuery User Interface library that will be installed in public dir",
-        "libra/zendframework-minimal":  "Provede lighter zendframework library without tests. Mininal package.",
-        "libra/zendframework-codeless": "Resolve composer dependencies. Provede the lightest zendframework library without code. For global installed zf2 library."
+        "libra/jquery-ui-assets":       "Add jQuery User Interface library that will be installed in public dir"
     },
 
     "scripts": {

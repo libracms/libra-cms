@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<phpunit bootstrap="./Bootstrap.php" colors="true">
+<phpunit bootstrap="./bootstrap.php" colors="true">
     <testsuites>
         <testsuite name="Libra CMS suite">
             <directory>./LibraCmsTest</directory>
