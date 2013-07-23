@@ -5,7 +5,7 @@ use Zend\ServiceManager\ServiceManager;
 
 date_default_timezone_set('UTC');
 mb_internal_encoding('utf-8');
-error_reporting(E_ALL | E_STRICT);
+error_reporting(E_ALL ^ E_NOTICE);
 
 const APP_ENV = 'dev';
 
