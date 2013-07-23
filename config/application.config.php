@@ -1,4 +1,6 @@
 <?php
+$env = getenv('APP_ENV') ?: 'prod';
+
 $modules = array(
     //vendor modules
     'DoctrineModule',
@@ -28,7 +30,7 @@ $modules = array(
     'Application',
 );
 
-if (APP_ENV === 'dev') {
+if ($env === 'dev') {
     //$modules[] = 'ZendDeveloperTools';
 }
 
@@ -36,7 +38,7 @@ return array(
     'modules' => $modules,
     'module_listener_options' => array(
         'config_glob_paths'    => array(
-            'config/autoload/{,*.}{global,'. APP_ENV .',local}.php',
+            'config/autoload/{,*.}{global,'. $env .',local}.php',
             'config/constructed/navigation.php',
             'config/config.php',
         ),
