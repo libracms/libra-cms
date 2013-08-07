@@ -23,7 +23,7 @@ Installation
 ###Using Composer (recommended, updated)
 
 1. Download if necessary [composer.phar](http://getcomposer.org/download/) and 
-   run `php composer.phar create-project libra/libra-cms libra-cms`
+   run `php composer.phar create-project libra/libra-cms libra-cms dev-master`
 2. Go to installed dir __libra-cms__. Copy __config/autoload/local.php.dist__ files to __local.php__ and fit parameters
    to properly DB name and user name/password. Export SQL from __data/libra-cms.sql__ to DB.
 3. Run `php -S localhost:8080 -t public` (assumed that you are inside installed folder).
