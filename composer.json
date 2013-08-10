@@ -27,7 +27,8 @@
         "doctrine/doctrine-orm-module":     "0.7.*",
         "zf-commons/zfc-user":              "0.*",
         "zf-commons/zfc-user-doctrine-orm": "0.*",
-        "zf-commons/zfc-twig":              "~1.1",
+        "zf-commons/zfc-twig":              "1.*",
+        "libra/libra":                      "dev-master",
         "libra/libra-module-manager":       "dev-master",
         "libra/libra-navigation":           "dev-master",
         "libra/libra-app":                  "dev-master",
@@ -36,21 +37,20 @@
         "libra/ckfinder-assets":            "dev-master",
         "libra/jquery-ui-assets":           "~1.10.0",
         "libra/datatables-assets":          "~1.9.4",
-        "libra/fancybox-assets":            "dev-master",
+        "libra/fancybox-assets":            "2.*",
         "libra/libra-article-image-zooming":"dev-master",
-        "leafo/lessphp":                    ">=0.3.8",
+        "leafo/lessphp":                    "~0.3",
         "libra/libra-locale":               "dev-master",
         "mwillbanks/zfc-twitter-bootstrap": "@dev",
         "dlu/dlutwbootstrap":               "~0.1.4",
         "dlu/dlutwbootstrapdemo":           "~0.1.2",
         "monolog/monolog":                  "~1.5",
-        "libra/libra":                      "dev-master",
         "zendframework/zend-developer-tools": "0.*"
     },
 
     "require-dev": {
         "phpunit/phpunit":                  "~3.7.5",
-        "phpunit/php-invoker":              "~1.1.0"
+        "phpunit/php-invoker":              "1.1.*"
     },
 
     "autoload": {
