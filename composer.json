@@ -23,20 +23,20 @@
 
     "require": {
         "php":                              ">=5.3.3",
-        "doctrine/doctrine-module":         "0.7.*",
-        "doctrine/doctrine-orm-module":     "0.7.*",
-        "zf-commons/zfc-user":              "0.*",
-        "zf-commons/zfc-user-doctrine-orm": "0.*",
+        "doctrine/doctrine-module":         "~0.7",
+        "doctrine/doctrine-orm-module":     "~0.7",
+        "zf-commons/zfc-user":              "~0.1",
+        "zf-commons/zfc-user-doctrine-orm": "~0.1",
         "zf-commons/zfc-twig":              "1.*",
         "libra/libra":                      "dev-master",
         "libra/libra-module-manager":       "dev-master",
         "libra/libra-navigation":           "dev-master",
         "libra/libra-app":                  "dev-master",
         "libra/libra-article":              "dev-master",
-        "libra/ckeditor-assets":            "dev-master",
-        "libra/ckfinder-assets":            "dev-master",
-        "libra/jquery-ui-assets":           "~1.10.0",
-        "libra/datatables-assets":          "~1.9.4",
+        "libra/ckeditor-assets":            "3.*",
+        "libra/ckfinder-assets":            "2.*",
+        "libra/jquery-ui-assets":           "~1.10",
+        "libra/datatables-assets":          "~1.9",
         "libra/fancybox-assets":            "2.*",
         "libra/libra-article-image-zooming":"dev-master",
         "leafo/lessphp":                    "~0.3",
@@ -53,14 +53,10 @@
 
     "autoload": {
         "psr-0": {
-                "Application\\": "module/Application/src/",
-                "LibraCmsTest": "tests/LibraCmsTest"
-            },
+            "Application\\": "module/Application/src/",
+            "LibraCmsTest": "tests/LibraCmsTest"
+        },
         "classmap": ["module/Application/Module.php"]
-    },
-
-    "provide": {
-      
     },
 
     "suggest": {
@@ -72,5 +68,4 @@
         "pre-package-uninstall": "LibraAssetsInstaller\\Installer::prePackageUninstall",
         "post-package-update":   "LibraAssetsInstaller\\Installer::postPackageUpdate"
     }
-
 }
