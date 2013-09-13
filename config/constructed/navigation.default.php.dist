@@ -77,6 +77,7 @@ return array (
                 'type' => 'Zend\\Navigation\\Page\\Mvc',
                 'label' => 'You can change this module',
                 'route' => 'application',
+                'action' => 'userland',
             ),
             array (
                 'type' => 'Zend\\Navigation\\Page\\Mvc',

@@ -17,6 +17,16 @@ return array(
                     ),
                 ),
             ),
+            'home' => array(
+                'type' => 'Zend\Mvc\Router\Http\Literal',
+                'options' => array(
+                    'route'    => '/',
+                    'defaults' => array(
+                        'controller' => 'Application\Controller\Index',
+                        'action'     => 'index',
+                    ),
+                ),
+            ),
             'admin' => array(
                 'child_routes' => array(
                     'application' => array(
@@ -51,6 +61,19 @@ return array(
         ),
         'template_map' => array(
             'layout/layouttwb-demo' => __DIR__ . '/../view/layout/layouttwb-demo.phtml',
+        ),
+    ),
+    'translator' => array(
+        'locale' => array(
+            'en-US',
+        ),
+        'translation_file_patterns' => array(
+            array(
+                'type'        => 'phparray',
+                'base_dir'    => __DIR__ . '/../locale',
+                'text_domain' => 'default',
+                'pattern'     => '%s.php',
+            ),
         ),
     ),
 );

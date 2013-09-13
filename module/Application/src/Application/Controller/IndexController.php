@@ -1,4 +1,7 @@
 <?php
+/**
+ * Libra-CMS (http://www.ejoom.com/libra-cms/)
+ */
 
 namespace Application\Controller;
 
@@ -9,9 +12,14 @@ class IndexController extends AbstractActionController
 {
     public function indexAction()
     {
+        return new ViewModel();
+    }
+
+    public function userlandAction()
+    {
         return new ViewModel(array(
-            'content' => 'Put your content here',
-            'action' => __CLASS__ . '::index',
+            'content' => 'Put your content here.',
+            'action' => __CLASS__ . '::userland',
         ));
     }
 

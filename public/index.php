@@ -3,18 +3,21 @@
 /**
  * Some default configurations
  */
-date_default_timezone_set('UTC');
+//date_default_timezone_set('UTC');  //not alway is good idea
 mb_internal_encoding('utf-8');
 
-putenv('APP_ENV=dev');
+putenv('APP_ENV=development');
 
 //Setup APP_ENV constant depended on server enviroment configuration.
 //Values = [prod=production, dev=development, debug=debuging]. Default: prod
-define('APP_ENV', getenv('APP_ENV') ?: 'prod');
+$env = getenv('APP_ENV') ?: 'production';
 
-if (APP_ENV === 'dev') {
+//Setup to display start up errors
+if ($env === 'development') {
     ini_set('display_errors', 1);
     error_reporting(E_ALL);
+} else {
+    ini_set('display_errors', 0);
 }
 
 /**

@@ -1,5 +1,17 @@
-<p><?php echo $this->content ?></p>
-<p>Action: <?php echo $this->action ?> by module/Application</p>
+<h1>Startup Home Page</h1>
 <p>
-    This is the default user module. If you don't know where start, begin coding in this module.
+    You can make your first one-page site instead of this content. <br/>
+    Just rewrite it home-page for your requirements. <br/>
+    This content keeps into
+    <em><?php echo str_replace(getcwd().'/', '', __FILE__) ?></em> file.
+</p>
+<p>
+    For editing home-page from administration backand by libra-article module
+    setup 'override_home_route' flag to 'true'.
+</p>
+<p>
+    It's good idea to create your own web-site template. For this create
+    new folder into <em>module/Application/view/layout</em> folder like
+    'my-new-template' and set this template as default though config var:
+    'layoutName' in libra-app.global.php config file.
 </p>
