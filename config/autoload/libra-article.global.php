@@ -9,7 +9,7 @@ $config = array(
      */
     'consider_locale'  => true,
 
-    'override_home_route' => 0,
+    'override_home_route' => true,
 
     // Article alias for homepage
     'homepage_alias' => 'home',

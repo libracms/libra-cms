@@ -69,7 +69,7 @@ return array(
     'service_manager' => array(
         'use_defaults' => true,
         'factories'    => array(
-            'Navigation' => 'LibraLocale\Navigation\Service\DefaultNavigationFactory',
+            'Navigation' => 'Zend\Navigation\Service\DefaultNavigationFactory',
             'SecondNavigation' => 'LibraApp\Service\SecondNavigationFactory',
             'AdminNavigation'  => 'LibraApp\Service\AdminNavigationFactory',
         ),

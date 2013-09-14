@@ -32,7 +32,7 @@ return array (
                 'label' => 'Rus menu item',
                 'params' => array (
                     'alias' => 'ru-page',
-                    'locale' => 'ru-RU',
+                    'locale' => 'ru',
                 ),
                 'route' => 'libra-article',
             ),
