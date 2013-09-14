@@ -4,7 +4,6 @@
     "description":  "ZF2 based CMS that allows easily create your own web-site with necessary tools like article menagment",
     "keywords":     ["zf", "zf2", "zend framework", "cms"],
     "homepage":     "http://www.ejoom.com/libra-cms/",
-    "time":         "2012-04-21",
     "license":      "BSD-3-Clause",
     "authors": [
         {"name": "duke", "email": "duke@ejoom.com", "role": "maintainer, developer", "homepage": "https://www.facebook.com/vnagara"}
