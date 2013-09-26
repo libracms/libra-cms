@@ -2,7 +2,7 @@
 $config = array(
     //put true for short aliases like /about, /contacts, etc.
     //default: bool true
-    'use_short_alias' => 0,
+    'use_short_alias' => true,
     /**
      * Conider locale at forming link and getting article
      * To have any effect you should have enabled LibraLocale module
