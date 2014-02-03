@@ -23,8 +23,8 @@ return array(
                     'host'     => 'localhost',
                     'port'     => '3306',
                     'user'     => 'libra-cms',
-                    'password' => 'password',
                     'dbname'   => 'libra-cms',
+                    'password' => 'password',
                     'charset'  => 'UTF8',
                     //for php < 5.3.5
                     'driverOptions' => array(
