@@ -23,7 +23,7 @@
     "require": {
         "php":                              ">=5.3.3",
         "doctrine/doctrine-module":         "~0.7",
-        "doctrine/doctrine-orm-module":     "~0.7",
+        "doctrine/doctrine-orm-module":     "0.7.*",
         "zf-commons/zfc-user":              "~0.1",
         "zf-commons/zfc-user-doctrine-orm": "~0.1",
         "zf-commons/zfc-twig":              "1.*",
@@ -34,7 +34,7 @@
         "libra/jquery-ui-assets":           "~1.10",
         "libra/datatables-assets":          "~1.9",
         "libra/fancybox-assets":            "2.*",
-        "libra/libra-article-image-zooming":"0.*",
+        "libra/libra-article-image-zooming":"dev-master",
         "leafo/lessphp":                    "~0.3",
         "libra/libra-locale":               "~0.5",
         "mwillbanks/zfc-twitter-bootstrap": "dev-master",
