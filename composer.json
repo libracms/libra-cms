@@ -10,8 +10,7 @@
     ],
     "support": {
         "email":    "duke@ejoom.com",
-        "irc":      "irc://irc.freenode.net/libracms",
-        "forum":    ""
+        "irc":      "irc://irc.freenode.net/libracms"
     },
 
     "config": {
