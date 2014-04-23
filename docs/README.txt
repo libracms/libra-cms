@@ -14,13 +14,13 @@ Setting Up Your VHOST
 The following is a sample VHOST you might want to consider for your project.
 
 <VirtualHost *:80>
-   DocumentRoot "/home/duke/public_html/kijiji/public"
+   DocumentRoot "/home/username/public_html/sitename/public"
    ServerName kijiji.local
 
    # This should be omitted in the production environment
    SetEnv APPLICATION_ENV development
 
-   <Directory "/home/duke/public_html/kijiji/public">
+   <Directory "/home/username/public_html/sitename/public">
        Options Indexes MultiViews FollowSymLinks
        AllowOverride All
        Order allow,deny

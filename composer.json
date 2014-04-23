@@ -38,6 +38,7 @@
         "mwillbanks/zfc-twitter-bootstrap": "dev-master",
         "monolog/monolog":                  "~1.5",
         "bjyoungblood/bjy-authorize":       "~1.4",
+        "vnagara/runtime-config":           "1.*",
         "zendframework/zend-developer-tools": "0.*"
     },
 
@@ -46,6 +47,8 @@
         "libra/libra-article":              "dev-master",
         "libra/libra-article-image-zooming":"dev-master",
         "libra/libra-navigation":           "dev-master",
+        "libra/libra-locale":               "dev-master",
+        "vnagara/runtime-config":           "dev-master",
         "phpunit/phpunit":                  "~3.7.5",
         "phpunit/php-invoker":              "1.1.*"
     },

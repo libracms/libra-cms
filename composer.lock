@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "881da5c8f55dfdce35b8cc3ef540a670",
+    "hash": "2e482de75b73049b9c18084fd20f14e5",
     "packages": [
         {
             "name": "bjyoungblood/bjy-authorize",
@@ -1308,12 +1308,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/libracms/libra-article.git",
-                "reference": "903631cef4045979754c8aaa3e5ebffaaf13fad0"
+                "reference": "4c204b5d7d595eafd2268ebd60cd8490ad5fafe2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/libracms/libra-article/zipball/903631cef4045979754c8aaa3e5ebffaaf13fad0",
-                "reference": "903631cef4045979754c8aaa3e5ebffaaf13fad0",
+                "url": "https://api.github.com/repos/libracms/libra-article/zipball/4c204b5d7d595eafd2268ebd60cd8490ad5fafe2",
+                "reference": "4c204b5d7d595eafd2268ebd60cd8490ad5fafe2",
                 "shasum": ""
             },
             "require": {
@@ -1360,7 +1360,7 @@
                 "zf",
                 "zf2"
             ],
-            "time": "2014-04-22 09:50:25"
+            "time": "2014-04-22 13:34:03"
         },
         {
             "name": "libra/libra-article-image-zooming",
@@ -1467,16 +1467,16 @@
         },
         {
             "name": "libra/libra-locale",
-            "version": "0.5.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/libracms/libra-locale.git",
-                "reference": "87e59ae63dd5064d09aca3d44817622633c31386"
+                "reference": "ff5a345e4e7f97c85e7120a0f97608a2e7018e61"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/libracms/libra-locale/zipball/87e59ae63dd5064d09aca3d44817622633c31386",
-                "reference": "87e59ae63dd5064d09aca3d44817622633c31386",
+                "url": "https://api.github.com/repos/libracms/libra-locale/zipball/ff5a345e4e7f97c85e7120a0f97608a2e7018e61",
+                "reference": "ff5a345e4e7f97c85e7120a0f97608a2e7018e61",
                 "shasum": ""
             },
             "require": {
@@ -1519,7 +1519,7 @@
                 "zf",
                 "zf2"
             ],
-            "time": "2013-09-14 09:05:11"
+            "time": "2013-09-14 19:08:19"
         },
         {
             "name": "libra/libra-markdown",
@@ -2022,6 +2022,58 @@
                 "templating"
             ],
             "time": "2014-02-13 10:19:29"
+        },
+        {
+            "name": "vnagara/runtime-config",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/vnagara/RuntimeConfig.git",
+                "reference": "0da53ea0678e2d80e8adf9df93f1fab63dd26113"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/vnagara/RuntimeConfig/zipball/0da53ea0678e2d80e8adf9df93f1fab63dd26113",
+                "reference": "0da53ea0678e2d80e8adf9df93f1fab63dd26113",
+                "shasum": ""
+            },
+            "require": {
+                "zendframework/zend-modulemanager": "2.*",
+                "zendframework/zend-mvc": "2.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "RuntimeConfig\\": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Vitalii Nagara",
+                    "email": "duke@ejoom.com",
+                    "role": "maintainer, developer"
+                }
+            ],
+            "description": "Provide server independent runtime (user php ini) configuration pack",
+            "keywords": [
+                "ZendFramework",
+                "php ini",
+                "zf",
+                "zf2"
+            ],
+            "time": "2014-04-23 16:49:58"
         },
         {
             "name": "zendframework/zend-developer-tools",
@@ -2956,7 +3008,9 @@
         "libra/libra-app": 20,
         "libra/libra-article": 20,
         "libra/libra-article-image-zooming": 20,
-        "libra/libra-navigation": 20
+        "libra/libra-navigation": 20,
+        "libra/libra-locale": 20,
+        "vnagara/runtime-config": 20
     },
     "platform": {
         "php": ">=5.3.3"

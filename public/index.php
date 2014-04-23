@@ -9,10 +9,6 @@ define ('TZ', date_default_timezone_get());
 // Then set it to UTC for proper working of Doctrine 2
 date_default_timezone_set('UTC');
 
-if (function_exists('mb_internal_encoding')) {
-    mb_internal_encoding('utf-8');
-}
-
 putenv('APP_ENV=development');
 
 //Setup APP_ENV constant depended on server enviroment configuration.

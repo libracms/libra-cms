@@ -21,6 +21,8 @@ $modules = array(
     'ZfcTwitterBootstrap',
     'DluTwBootstrap',
     'DluTwBootstrapDemo',
+    'RuntimeConfig',
+    //'BjyAuthorize',
     //'Test',
 
     // Put below YOUR modules. They will be in the last position to override
@@ -67,6 +69,12 @@ return array(
         'cache_dir'            => 'data/cache',
     ),
     'service_manager' => array(
+        //'invokables' => array(
+            //'Zend\Authentication\AuthenticationService' => 'Zend\Authentication\AuthenticationService',
+        //),
+        'aliases' => array(
+            'Zend\Authentication\AuthenticationService' => 'zfcuser_auth_service',
+        ),
         'use_defaults' => true,
         'factories'    => array(
             'Navigation' => 'Zend\Navigation\Service\DefaultNavigationFactory',
