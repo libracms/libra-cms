@@ -81,5 +81,8 @@ return array(
             'SecondNavigation' => 'LibraApp\Service\SecondNavigationFactory',
             'AdminNavigation'  => 'LibraApp\Service\AdminNavigationFactory',
         ),
+        'abstract_factories' => array(
+            'Zend\Config\AbstractConfigFactory'
+        )
     ),
 );
