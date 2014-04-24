@@ -35,7 +35,6 @@
         "libra/libra-article-image-zooming":"0.*",
         "leafo/lessphp":                    "~0.3",
         "libra/libra-locale":               "~0.5",
-        "mwillbanks/zfc-twitter-bootstrap": "dev-master",
         "monolog/monolog":                  "~1.5",
         "bjyoungblood/bjy-authorize":       "~1.4",
         "vnagara/runtime-config":           "1.*",
@@ -43,8 +42,9 @@
     },
 
     "require-dev": {
-        "libra/libra-app":                  "dev-master",
-        "libra/libra-article":              "dev-master",
+        "neilime/zf2-twb-bundle":           "2.*",
+        "libra/libra-app":                  "dev-twb3 as 0.6",
+        "libra/libra-article":              "dev-twb3 as 0.5",
         "libra/libra-article-image-zooming":"dev-master",
         "libra/libra-navigation":           "dev-master",
         "libra/libra-locale":               "dev-master",

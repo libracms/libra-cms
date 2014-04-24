@@ -18,9 +18,7 @@ $modules = array(
     'ZfcUser',
     'ZfcUserDoctrineORM',
     //'ZfcTwig',  //breack partial display
-    'ZfcTwitterBootstrap',
-    'DluTwBootstrap',
-    'DluTwBootstrapDemo',
+    //'TwbBundle',
     'RuntimeConfig',
     //'BjyAuthorize',
     //'Test',

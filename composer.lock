@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "2e482de75b73049b9c18084fd20f14e5",
+    "hash": "3d71b743d979f21d29314d65131cff28",
     "packages": [
         {
             "name": "bjyoungblood/bjy-authorize",
@@ -74,105 +74,6 @@
                 "zfc-user"
             ],
             "time": "2013-07-05 11:59:46"
-        },
-        {
-            "name": "dlu/dlutwbootstrap",
-            "version": "0.1.4",
-            "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/dlu/dlutwbootstrap.git",
-                "reference": "843d123dbb8e2eba65d4ef58f7cdaf7f59b0d51d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/dlu/dlutwbootstrap/get/843d123dbb8e2eba65d4ef58f7cdaf7f59b0d51d.zip",
-                "reference": "843d123dbb8e2eba65d4ef58f7cdaf7f59b0d51d",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3",
-                "zendframework/zendframework": ">=2.1.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "DluTwBootstrap": "src/"
-                },
-                "classmap": [
-                    "./Module.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "New-BSD-License"
-            ],
-            "authors": [
-                {
-                    "name": "David Lukas",
-                    "homepage": "http://www.zfdaily.com"
-                }
-            ],
-            "description": "ZF2 module to generate Twitter Bootstrap UI - forms, navigation, etc.",
-            "homepage": "https://bitbucket.org/dlu/dlutwbootstrap",
-            "keywords": [
-                "dlutwbootstrap",
-                "module",
-                "twitter bootstrap",
-                "zend framework 2",
-                "zf2"
-            ],
-            "time": "2013-03-27 13:05:57"
-        },
-        {
-            "name": "dlu/dlutwbootstrapdemo",
-            "version": "0.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://bitbucket.org/dlu/dlutwbootstrap-demo.git",
-                "reference": "ff2aff8631ba67cc97ac0e0f9ec395ebdaffdc73"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://bitbucket.org/dlu/dlutwbootstrap-demo/get/ff2aff8631ba67cc97ac0e0f9ec395ebdaffdc73.zip",
-                "reference": "ff2aff8631ba67cc97ac0e0f9ec395ebdaffdc73",
-                "shasum": ""
-            },
-            "require": {
-                "dlu/dlutwbootstrap": ">=0.1.1",
-                "php": ">=5.3.3",
-                "zendframework/zendframework": ">=2.0.5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "DluTwBootstrapDemo": "src/"
-                },
-                "classmap": [
-                    "./Module.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "New-BSD-License"
-            ],
-            "authors": [
-                {
-                    "name": "David Lukas",
-                    "homepage": "http://www.zfdaily.com"
-                }
-            ],
-            "description": "ZF2 module to check & demonstrate the DluTwBootstrap module (Twitter Bootstrap UI - forms, navigation, etc.)",
-            "homepage": "https://bitbucket.org/dlu/dlutwbootstrap-demo",
-            "keywords": [
-                "demo",
-                "dlutwbootstrap",
-                "dlutwbootstrapdemo",
-                "module",
-                "twitter bootstrap",
-                "zend framework 2",
-                "zf2"
-            ],
-            "time": "2012-12-15 11:29:31"
         },
         {
             "name": "doctrine/annotations",
@@ -1213,29 +1114,26 @@
         },
         {
             "name": "libra/libra-app",
-            "version": "dev-master",
+            "version": "dev-twb3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/libracms/libra-app.git",
-                "reference": "cd53dc0f2533c87950d6d20793d1969519886417"
+                "reference": "713ea8614239792242876921fcc4503c5b03913b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/libracms/libra-app/zipball/cd53dc0f2533c87950d6d20793d1969519886417",
-                "reference": "cd53dc0f2533c87950d6d20793d1969519886417",
+                "url": "https://api.github.com/repos/libracms/libra-app/zipball/713ea8614239792242876921fcc4503c5b03913b",
+                "reference": "713ea8614239792242876921fcc4503c5b03913b",
                 "shasum": ""
             },
             "require": {
-                "dlu/dlutwbootstrap": "~0.1.4",
-                "dlu/dlutwbootstrapdemo": "~0.1.2",
                 "libra/jquery-assets": "~1.10",
                 "libra/libra": "0.*",
                 "libra/libra-assets-installer": "2.*",
                 "libra/libra-markdown": "1.*",
                 "libra/libra-module-manager": "1.*",
                 "libra/libra-navigation": "0.*",
-                "libra/twitter-bootstrap-assets": "2.3.*",
-                "mwillbanks/zfc-twitter-bootstrap": "dev-master",
+                "libra/twitter-bootstrap-assets": "3.*",
                 "zendframework/zend-authentication": "2.3.*",
                 "zendframework/zend-console": "2.3.*",
                 "zendframework/zend-di": "2.3.*",
@@ -1268,8 +1166,8 @@
             "type": "asset-aware",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.6.x-dev",
-                    "dev-dev": "0.7.x-dev"
+                    "dev-master": "0.5.x-dev",
+                    "dev-dev": "0.6.x-dev"
                 }
             },
             "autoload": {
@@ -1300,20 +1198,20 @@
                 "zf",
                 "zf2"
             ],
-            "time": "2014-04-22 13:04:51"
+            "time": "2014-04-24 10:45:51"
         },
         {
             "name": "libra/libra-article",
-            "version": "dev-master",
+            "version": "dev-twb3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/libracms/libra-article.git",
-                "reference": "4c204b5d7d595eafd2268ebd60cd8490ad5fafe2"
+                "reference": "a3dba0412228b2e66a6230865d8e121062ad1029"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/libracms/libra-article/zipball/4c204b5d7d595eafd2268ebd60cd8490ad5fafe2",
-                "reference": "4c204b5d7d595eafd2268ebd60cd8490ad5fafe2",
+                "url": "https://api.github.com/repos/libracms/libra-article/zipball/a3dba0412228b2e66a6230865d8e121062ad1029",
+                "reference": "a3dba0412228b2e66a6230865d8e121062ad1029",
                 "shasum": ""
             },
             "require": {
@@ -1360,7 +1258,7 @@
                 "zf",
                 "zf2"
             ],
-            "time": "2014-04-22 13:34:03"
+            "time": "2014-04-24 10:39:35"
         },
         {
             "name": "libra/libra-article-image-zooming",
@@ -1667,16 +1565,16 @@
         },
         {
             "name": "libra/twitter-bootstrap-assets",
-            "version": "2.3.2",
+            "version": "3.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/libracms/twitter-bootstrap-assets.git",
-                "reference": "9316275b565abd0ac3c6c26b576fe8bbc662efde"
+                "reference": "607bce8a00842420ec119c608eb39ce6d77d1e6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/libracms/twitter-bootstrap-assets/zipball/9316275b565abd0ac3c6c26b576fe8bbc662efde",
-                "reference": "9316275b565abd0ac3c6c26b576fe8bbc662efde",
+                "url": "https://api.github.com/repos/libracms/twitter-bootstrap-assets/zipball/607bce8a00842420ec119c608eb39ce6d77d1e6b",
+                "reference": "607bce8a00842420ec119c608eb39ce6d77d1e6b",
                 "shasum": ""
             },
             "require": {
@@ -1695,13 +1593,13 @@
                 }
             ],
             "description": "Twitter Bootstrap assets for ZF2 projects",
-            "homepage": "http://getbootstrap.com/2.3.2/",
+            "homepage": "http://getbootstrap.com",
             "keywords": [
                 "assets",
                 "twitter-bootstrap",
                 "zf2"
             ],
-            "time": "2013-08-12 07:30:39"
+            "time": "2014-02-06 07:45:21"
         },
         {
             "name": "michelf/php-markdown",
@@ -1821,57 +1719,6 @@
                 "psr-3"
             ],
             "time": "2014-04-20 16:41:26"
-        },
-        {
-            "name": "mwillbanks/zfc-twitter-bootstrap",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mwillbanks/ZfcTwitterBootstrap.git",
-                "reference": "e3ee2072dfe6be0b862102a84dc0c26bba655cf4"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mwillbanks/ZfcTwitterBootstrap/zipball/e3ee2072dfe6be0b862102a84dc0c26bba655cf4",
-                "reference": "e3ee2072dfe6be0b862102a84dc0c26bba655cf4",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3",
-                "zendframework/zend-filter": "2.*",
-                "zendframework/zend-form": "2.*",
-                "zendframework/zend-navigation": "2.*",
-                "zendframework/zend-view": "2.*"
-            },
-            "require-dev": {
-                "phpunit/phpunit": ">=3.7.7",
-                "zendframework/zendframework": "2.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "ZfcTwitterBootstrap": "src/"
-                },
-                "classmap": [
-                    "./"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Mike Willbanks",
-                    "email": "mike@digitalstruct.com",
-                    "homepage": "http://blog.digitalstruct.com/"
-                }
-            ],
-            "description": "A module that assists in implementing Twitter Bootstrap for ZF2",
-            "homepage": "https://github.com/mwillbanks/ZfcTwitterBootstrap",
-            "keywords": [
-                "twBootstrap",
-                "twitter bootstrap",
-                "zf2"
-            ],
-            "time": "2013-07-23 19:40:34"
         },
         {
             "name": "psr/log",
@@ -2537,6 +2384,66 @@
     ],
     "packages-dev": [
         {
+            "name": "neilime/zf2-twb-bundle",
+            "version": "2.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/neilime/zf2-twb-bundle.git",
+                "reference": "22927fec14a9c5f6b9c342d8db429d683c404cef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/neilime/zf2-twb-bundle/zipball/22927fec14a9c5f6b9c342d8db429d683c404cef",
+                "reference": "22927fec14a9c5f6b9c342d8db429d683c404cef",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.2",
+                "zendframework/zendframework": "2.3.*@stable"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "3.*@stable",
+                "satooshi/php-coveralls": "0.*@stable"
+            },
+            "suggest": {
+                "neilime/zf2-assets-bundle": "Bundling & caching Twitter Bootstrap assets",
+                "twitter/bootstrap": "Twitter bootstrap assets"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "TwbBundle": "src"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Neilime",
+                    "homepage": "https://github.com/neilime",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Zend Framework 2 module for easy integration of Twitter Bootstrap",
+            "homepage": "http://neilime.github.io/zf2-twb-bundle/",
+            "keywords": [
+                "bundle",
+                "twitter bootstrap",
+                "zend framework 2"
+            ],
+            "time": "2014-03-31 20:15:05"
+        },
+        {
             "name": "phpunit/php-code-coverage",
             "version": "1.2.17",
             "source": {
@@ -3000,11 +2907,21 @@
         }
     ],
     "aliases": [
-
+        {
+            "alias": "0.6",
+            "alias_normalized": "0.6.0.0",
+            "version": "dev-twb3",
+            "package": "libra/libra-app"
+        },
+        {
+            "alias": "0.5",
+            "alias_normalized": "0.5.0.0",
+            "version": "dev-twb3",
+            "package": "libra/libra-article"
+        }
     ],
     "minimum-stability": "stable",
     "stability-flags": {
-        "mwillbanks/zfc-twitter-bootstrap": 20,
         "libra/libra-app": 20,
         "libra/libra-article": 20,
         "libra/libra-article-image-zooming": 20,
