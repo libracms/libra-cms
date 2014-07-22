@@ -55,7 +55,7 @@ return [
 
                 'zfcuser/login'    => ['guest'],
                 'zfcuser/register' => ['guest'], // required if registration is enabled
-                'zfcuser*'         => ['user'] // includes logout, changepassword and changeemail
+                'zfcuser*'         => ['guest'] // includes logout, changepassword and changeemail
             ],
             'ZfcRbac\Guard\ControllerGuard' => [
                 [
