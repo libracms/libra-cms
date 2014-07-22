@@ -16,12 +16,14 @@ $modules = array(
     'LibraArticleImageZooming',
     'ZfcBase',
     'ZfcUser',
-    'ZfcUserDoctrineORM',
+    //'ZfcUserDoctrineORM',
     //'ZfcTwig',  //breack partial display
     //'TwbBundle',
     'RuntimeConfig',
     //'BjyAuthorize',
+    'ZfcRbac',
     //'Test',
+    'LibraUser',
 
     // Put below YOUR modules. They will be in the last position to override
     // rest of modules.
@@ -46,6 +48,7 @@ return array(
         'module_paths' => array(
             './module',
             './vendor',
+            'LibraUser' => './vendor/libra/libra-user',
         ),
 
         // An array of paths from which to glob configuration files after

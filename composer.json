@@ -20,13 +20,13 @@
     "minimum-stability": "stable",
 
     "require": {
-        "php":                              ">=5.3.3",
+        "php":                              ">=5.5.0",
         "doctrine/doctrine-module":         "~0.8",
         "doctrine/doctrine-orm-module":     "~0.8",
         "zf-commons/zfc-user-doctrine-orm": "1.*",
         "zf-commons/zfc-twig":              "1.*",
-        "libra/libra-app":                  "~0.6",
-        "libra/libra-article":              "~0.5",
+        "libra/libra-app":                  "~0.7",
+        "libra/libra-article":              "~0.6",
         "libra/ckeditor-assets":            "3.*",
         "libra/ckfinder-assets":            "2.*",
         "libra/jquery-ui-assets":           "~1.10",
@@ -36,19 +36,19 @@
         "leafo/lessphp":                    "~0.3",
         "libra/libra-locale":               "~0.5",
         "monolog/monolog":                  "~1.5",
-        "bjyoungblood/bjy-authorize":       "~1.4",
         "vnagara/runtime-config":           "1.*",
         "zendframework/zend-developer-tools": "0.*"
     },
 
     "require-dev": {
         "neilime/zf2-twb-bundle":           "2.*",
-        "libra/libra-app":                  "dev-twb3 as 0.6",
-        "libra/libra-article":              "dev-twb3 as 0.5",
+        "libra/libra-app":                  "dev-dev as 0.7",
+        "libra/libra-article":              "dev-dev as 0.6",
         "libra/libra-article-image-zooming":"dev-master",
         "libra/libra-navigation":           "dev-master",
         "libra/libra-locale":               "dev-master",
         "vnagara/runtime-config":           "dev-master",
+        "libra/libra-user":                 "dev-master",
         "phpunit/phpunit":                  "~3.7.5",
         "phpunit/php-invoker":              "1.1.*"
     },

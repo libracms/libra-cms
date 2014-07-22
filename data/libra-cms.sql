@@ -28,7 +28,7 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `article` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `locale` varchar(255) NOT NULL,
+  `locale` varchar(255) DEFAULT NULL,
   `heading` varchar(255) NOT NULL,
   `alias` varchar(255) NOT NULL,
   `uid` varchar(64) NOT NULL,

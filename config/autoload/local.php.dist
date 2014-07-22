@@ -22,15 +22,10 @@ return array(
                 'params' => array(
                     'host'     => 'localhost',
                     'port'     => '3306',
-                    'user'     => 'libra-cms',
-                    'dbname'   => 'libra-cms',
+                    'user'     => 'libra_cms',
+                    'dbname'   => 'libra_cms',
                     'password' => 'password',
-                    'charset'  => 'UTF8',
-                    //for php < 5.3.5
-                    'driverOptions' => array(
-                        PDO::MYSQL_ATTR_INIT_COMMAND => 'SET NAMES \'UTF8\''
-                    ),
-                    //'memory'        => true,
+                    'charset'  => 'utf8',
                 ),
             ),
         ),
@@ -42,4 +37,20 @@ return array(
             ),
         ),
     ),
+
+    // Change it and uncomment if you use Zend DB Adapter
+    /*'db' => array(
+        'driver'    => 'PdoMysql',
+        'hostname'  => 'localhost',
+        'port'      => '3306',
+        'database'  => 'libra_cms',
+        'username'  => 'libra_cms',
+        'password'  => 'changeme',
+    ),
+
+    'service_manager' => array(
+        'factories' => array(
+            'Zend\Db\Adapter\Adapter' => 'Zend\Db\Adapter\AdapterServiceFactory',
+        ),
+    ),*/
 );

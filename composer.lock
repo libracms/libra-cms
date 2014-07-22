@@ -1,92 +1,23 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "3d71b743d979f21d29314d65131cff28",
+    "hash": "7bf6c5a1f6405e276cfdb09661cb5ae3",
     "packages": [
         {
-            "name": "bjyoungblood/bjy-authorize",
-            "version": "1.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bjyoungblood/BjyAuthorize.git",
-                "reference": "02723bd19f0bba33649d708022f8d0e0b795f57a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bjyoungblood/BjyAuthorize/zipball/02723bd19f0bba33649d708022f8d0e0b795f57a",
-                "reference": "02723bd19f0bba33649d708022f8d0e0b795f57a",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.3",
-                "zendframework/zend-cache": "~2.1",
-                "zendframework/zend-eventmanager": "~2.1",
-                "zendframework/zend-http": "~2.1",
-                "zendframework/zend-mvc": "~2.1",
-                "zendframework/zend-permissions-acl": "~2.1",
-                "zendframework/zend-servicemanager": "~2.1",
-                "zendframework/zend-view": "~2.1"
-            },
-            "require-dev": {
-                "doctrine/common": ">=2.3,<2.5-dev",
-                "phpunit/phpunit": "~3.7",
-                "satooshi/php-coveralls": "~0.6",
-                "squizlabs/php_codesniffer": "1.4.*",
-                "zendframework/zend-developer-tools": "0.*",
-                "zf-commons/zfc-user": "0.*"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.4-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "BjyAuthorize\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Marco Pivetta",
-                    "email": "ocramius@gmail.com",
-                    "homepage": "http://ocramius.github.com/",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Ben Youngblood",
-                    "email": "bx.youngblood@gmail.com",
-                    "homepage": "http://bjyoungblood.com/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Zend\\Acl based firewall system for ZF2 dispatch protection",
-            "homepage": "https://github.com/bjyoungblood/BjyAuthorize",
-            "keywords": [
-                "acl",
-                "zf2",
-                "zfc-user"
-            ],
-            "time": "2013-07-05 11:59:46"
-        },
-        {
             "name": "doctrine/annotations",
-            "version": "v1.1.2",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "40db0c96985aab2822edbc4848b3bd2429e02670"
+                "reference": "d9b1a37e9351ddde1f19f09a02e3d6ee92e82efd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/40db0c96985aab2822edbc4848b3bd2429e02670",
-                "reference": "40db0c96985aab2822edbc4848b3bd2429e02670",
+                "url": "https://api.github.com/repos/doctrine/annotations/zipball/d9b1a37e9351ddde1f19f09a02e3d6ee92e82efd",
+                "reference": "d9b1a37e9351ddde1f19f09a02e3d6ee92e82efd",
                 "shasum": ""
             },
             "require": {
@@ -94,12 +25,13 @@
                 "php": ">=5.3.2"
             },
             "require-dev": {
-                "doctrine/cache": "1.*"
+                "doctrine/cache": "1.*",
+                "phpunit/phpunit": "4.*"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.3.x-dev"
                 }
             },
             "autoload": {
@@ -115,7 +47,8 @@
                 {
                     "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/"
+                    "homepage": "http://www.jwage.com/",
+                    "role": "Creator"
                 },
                 {
                     "name": "Guilherme Blanco",
@@ -144,7 +77,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2013-06-16 21:33:03"
+            "time": "2014-07-06 15:52:21"
         },
         {
             "name": "doctrine/cache",
@@ -290,16 +223,16 @@
         },
         {
             "name": "doctrine/common",
-            "version": "v2.4.1",
+            "version": "v2.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/common.git",
-                "reference": "ceb18cf9b0230f3ea208b6238130fd415abda0a7"
+                "reference": "5db6ab40e4c531f14dad4ca96a394dfce5d4255b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/common/zipball/ceb18cf9b0230f3ea208b6238130fd415abda0a7",
-                "reference": "ceb18cf9b0230f3ea208b6238130fd415abda0a7",
+                "url": "https://api.github.com/repos/doctrine/common/zipball/5db6ab40e4c531f14dad4ca96a394dfce5d4255b",
+                "reference": "5db6ab40e4c531f14dad4ca96a394dfce5d4255b",
                 "shasum": ""
             },
             "require": {
@@ -309,6 +242,9 @@
                 "doctrine/inflector": "1.*",
                 "doctrine/lexer": "1.*",
                 "php": ">=5.3.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7"
             },
             "type": "library",
             "extra": {
@@ -329,7 +265,8 @@
                 {
                     "name": "Jonathan Wage",
                     "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/"
+                    "homepage": "http://www.jwage.com/",
+                    "role": "Creator"
                 },
                 {
                     "name": "Guilherme Blanco",
@@ -345,7 +282,7 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
-                    "name": "Johannes Schmitt",
+                    "name": "Johannes M. Schmitt",
                     "email": "schmittjoh@gmail.com",
                     "homepage": "http://jmsyst.com",
                     "role": "Developer of wrapped JMSSerializerBundle"
@@ -360,7 +297,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2013-09-07 10:20:34"
+            "time": "2014-05-21 19:28:51"
         },
         {
             "name": "doctrine/dbal",
@@ -712,16 +649,16 @@
         },
         {
             "name": "doctrine/orm",
-            "version": "v2.4.2",
+            "version": "v2.4.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/doctrine2.git",
-                "reference": "0363a5548d9263f979f9ca149decb9cfc66419ab"
+                "reference": "fc19c3b53dcd00e6584db40669fdd699c4671f97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/0363a5548d9263f979f9ca149decb9cfc66419ab",
-                "reference": "0363a5548d9263f979f9ca149decb9cfc66419ab",
+                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/fc19c3b53dcd00e6584db40669fdd699c4671f97",
+                "reference": "fc19c3b53dcd00e6584db40669fdd699c4671f97",
                 "shasum": ""
             },
             "require": {
@@ -784,7 +721,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2014-02-08 16:35:09"
+            "time": "2014-07-11 03:05:53"
         },
         {
             "name": "leafo/lessphp",
@@ -987,16 +924,16 @@
         },
         {
             "name": "libra/jquery-assets",
-            "version": "1.10.2",
+            "version": "1.11.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/libracms/jquery-assets.git",
-                "reference": "1.10.2"
+                "reference": "6870ac17ac6802394f46dc0068693f58b5b3e49e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/libracms/jquery-assets/zipball/1.10.2",
-                "reference": "1.10.2",
+                "url": "https://api.github.com/repos/libracms/jquery-assets/zipball/6870ac17ac6802394f46dc0068693f58b5b3e49e",
+                "reference": "6870ac17ac6802394f46dc0068693f58b5b3e49e",
                 "shasum": ""
             },
             "require": {
@@ -1021,7 +958,7 @@
                 "jquery",
                 "zf2"
             ],
-            "time": "2013-08-07 15:02:25"
+            "time": "2014-07-08 11:32:01"
         },
         {
             "name": "libra/jquery-ui-assets",
@@ -1114,16 +1051,16 @@
         },
         {
             "name": "libra/libra-app",
-            "version": "dev-twb3",
+            "version": "dev-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/libracms/libra-app.git",
-                "reference": "713ea8614239792242876921fcc4503c5b03913b"
+                "reference": "10a1783e3914429a1d43b227ad0fc60de233c1af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/libracms/libra-app/zipball/713ea8614239792242876921fcc4503c5b03913b",
-                "reference": "713ea8614239792242876921fcc4503c5b03913b",
+                "url": "https://api.github.com/repos/libracms/libra-app/zipball/10a1783e3914429a1d43b227ad0fc60de233c1af",
+                "reference": "10a1783e3914429a1d43b227ad0fc60de233c1af",
                 "shasum": ""
             },
             "require": {
@@ -1133,6 +1070,7 @@
                 "libra/libra-markdown": "1.*",
                 "libra/libra-module-manager": "1.*",
                 "libra/libra-navigation": "0.*",
+                "libra/libra-user": "0.*",
                 "libra/twitter-bootstrap-assets": "3.*",
                 "zendframework/zend-authentication": "2.3.*",
                 "zendframework/zend-console": "2.3.*",
@@ -1153,6 +1091,7 @@
                 "zendframework/zend-validator": "2.3.*",
                 "zendframework/zend-version": "2.3.*",
                 "zendframework/zend-view": "2.3.*",
+                "zf-commons/zfc-rbac": "~2.3",
                 "zf-commons/zfc-user": "0.*"
             },
             "suggest": {
@@ -1166,8 +1105,9 @@
             "type": "asset-aware",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.5.x-dev",
-                    "dev-dev": "0.6.x-dev"
+                    "dev-master": "0.6.x-dev",
+                    "dev-twb3": "0.7.x-dev",
+                    "dev-dev": "0.7.x-dev"
                 }
             },
             "autoload": {
@@ -1198,20 +1138,20 @@
                 "zf",
                 "zf2"
             ],
-            "time": "2014-04-24 10:45:51"
+            "time": "2014-07-21 08:07:15"
         },
         {
             "name": "libra/libra-article",
-            "version": "dev-twb3",
+            "version": "dev-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/libracms/libra-article.git",
-                "reference": "a3dba0412228b2e66a6230865d8e121062ad1029"
+                "reference": "91305df8160fd8af081067dcbb8659f7195d2360"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/libracms/libra-article/zipball/a3dba0412228b2e66a6230865d8e121062ad1029",
-                "reference": "a3dba0412228b2e66a6230865d8e121062ad1029",
+                "url": "https://api.github.com/repos/libracms/libra-article/zipball/91305df8160fd8af081067dcbb8659f7195d2360",
+                "reference": "91305df8160fd8af081067dcbb8659f7195d2360",
                 "shasum": ""
             },
             "require": {
@@ -1227,7 +1167,9 @@
             "type": "asset-aware",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "0.5.x-dev"
+                    "dev-master": "0.5.x-dev",
+                    "dev-twb3": "0.6.x-dev",
+                    "dev-dev": "0.6.x-dev"
                 }
             },
             "autoload": {
@@ -1258,7 +1200,7 @@
                 "zf",
                 "zf2"
             ],
-            "time": "2014-04-24 10:39:35"
+            "time": "2014-07-21 07:27:24"
         },
         {
             "name": "libra/libra-article-image-zooming",
@@ -1369,12 +1311,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/libracms/libra-locale.git",
-                "reference": "ff5a345e4e7f97c85e7120a0f97608a2e7018e61"
+                "reference": "b475563a83a9b13070628541982470cb80871125"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/libracms/libra-locale/zipball/ff5a345e4e7f97c85e7120a0f97608a2e7018e61",
-                "reference": "ff5a345e4e7f97c85e7120a0f97608a2e7018e61",
+                "url": "https://api.github.com/repos/libracms/libra-locale/zipball/b475563a83a9b13070628541982470cb80871125",
+                "reference": "b475563a83a9b13070628541982470cb80871125",
                 "shasum": ""
             },
             "require": {
@@ -1417,7 +1359,7 @@
                 "zf",
                 "zf2"
             ],
-            "time": "2013-09-14 19:08:19"
+            "time": "2014-07-11 07:03:30"
         },
         {
             "name": "libra/libra-markdown",
@@ -1518,12 +1460,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/libracms/libra-navigation.git",
-                "reference": "6a237a4843f3d1ed79e907efadfde625b47552a8"
+                "reference": "b9f2ba3b1da551886d834b6be0ddc540e8a9176e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/libracms/libra-navigation/zipball/6a237a4843f3d1ed79e907efadfde625b47552a8",
-                "reference": "6a237a4843f3d1ed79e907efadfde625b47552a8",
+                "url": "https://api.github.com/repos/libracms/libra-navigation/zipball/b9f2ba3b1da551886d834b6be0ddc540e8a9176e",
+                "reference": "b9f2ba3b1da551886d834b6be0ddc540e8a9176e",
                 "shasum": ""
             },
             "require": {
@@ -1538,7 +1480,7 @@
             },
             "autoload": {
                 "psr-0": {
-                    "Libra\\Navigation\\": "src/"
+                    "LibraNavigation\\": "src/"
                 },
                 "classmap": [
                     "Module.php"
@@ -1549,7 +1491,7 @@
                 {
                     "name": "Vitalii Nagara",
                     "email": "duke@ejoom.com",
-                    "role": "maintainer, developer"
+                    "role": "contributer"
                 }
             ],
             "description": "Add navigation aware to Libra CMS",
@@ -1561,20 +1503,74 @@
                 "zf",
                 "zf2"
             ],
-            "time": "2014-04-22 12:12:54"
+            "time": "2014-07-21 08:00:15"
         },
         {
-            "name": "libra/twitter-bootstrap-assets",
-            "version": "3.1.0",
+            "name": "libra/libra-user",
+            "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/libracms/twitter-bootstrap-assets.git",
-                "reference": "607bce8a00842420ec119c608eb39ce6d77d1e6b"
+                "url": "https://github.com/libracms/libra-user.git",
+                "reference": "ffb46f9d9feadf2cd6b0e8362f39ff6a68c9cd6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/libracms/twitter-bootstrap-assets/zipball/607bce8a00842420ec119c608eb39ce6d77d1e6b",
-                "reference": "607bce8a00842420ec119c608eb39ce6d77d1e6b",
+                "url": "https://api.github.com/repos/libracms/libra-user/zipball/ffb46f9d9feadf2cd6b0e8362f39ff6a68c9cd6b",
+                "reference": "ffb46f9d9feadf2cd6b0e8362f39ff6a68c9cd6b",
+                "shasum": ""
+            },
+            "require": {
+                "doctrine/doctrine-orm-module": "~0.8",
+                "php": ">=5.4",
+                "zf-commons/zfc-rbac": "~2.3",
+                "zf-commons/zfc-user": "0.*"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "0.3.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "LibraUser\\": "src/"
+                },
+                "classmap": [
+                    "Module.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Vitalii Nagara",
+                    "email": "duke@ejoom.com",
+                    "role": "contributer"
+                }
+            ],
+            "description": "Add user managing and roles by Rbac to Libra CMS",
+            "homepage": "http://www.ejoom.com/libra-cms/",
+            "keywords": [
+                "ZendFramework",
+                "libra",
+                "rbac",
+                "user",
+                "zf",
+                "zf2"
+            ],
+            "time": "2014-07-21 14:57:46"
+        },
+        {
+            "name": "libra/twitter-bootstrap-assets",
+            "version": "3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/libracms/twitter-bootstrap-assets.git",
+                "reference": "c689e24f0c564c001963cda17ab6fe5d552974a8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/libracms/twitter-bootstrap-assets/zipball/c689e24f0c564c001963cda17ab6fe5d552974a8",
+                "reference": "c689e24f0c564c001963cda17ab6fe5d552974a8",
                 "shasum": ""
             },
             "require": {
@@ -1589,7 +1585,7 @@
                 {
                     "name": "Vitalii Nagara",
                     "email": "duke@ejoom.com",
-                    "role": "contributer"
+                    "role": "maintainer, developer"
                 }
             ],
             "description": "Twitter Bootstrap assets for ZF2 projects",
@@ -1599,20 +1595,20 @@
                 "twitter-bootstrap",
                 "zf2"
             ],
-            "time": "2014-02-06 07:45:21"
+            "time": "2014-07-08 11:22:08"
         },
         {
             "name": "michelf/php-markdown",
-            "version": "1.4.0",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/michelf/php-markdown.git",
-                "reference": "96d8150406f67e683ef4acc09fef91785fef1266"
+                "reference": "de9a19c7bf352d41cc99ed86c3c0ef17e87394b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/96d8150406f67e683ef4acc09fef91785fef1266",
-                "reference": "96d8150406f67e683ef4acc09fef91785fef1266",
+                "url": "https://api.github.com/repos/michelf/php-markdown/zipball/de9a19c7bf352d41cc99ed86c3c0ef17e87394b6",
+                "reference": "de9a19c7bf352d41cc99ed86c3c0ef17e87394b6",
                 "shasum": ""
             },
             "require": {
@@ -1650,20 +1646,20 @@
             "keywords": [
                 "markdown"
             ],
-            "time": "2013-11-29 17:09:24"
+            "time": "2014-05-05 02:43:50"
         },
         {
             "name": "monolog/monolog",
-            "version": "1.9.0",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "1afc39690e7414412face1f8cbf67b73db34485c"
+                "reference": "25b16e801979098cb2f120e697bfce454b18bf23"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1afc39690e7414412face1f8cbf67b73db34485c",
-                "reference": "1afc39690e7414412face1f8cbf67b73db34485c",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/25b16e801979098cb2f120e697bfce454b18bf23",
+                "reference": "25b16e801979098cb2f120e697bfce454b18bf23",
                 "shasum": ""
             },
             "require": {
@@ -1691,7 +1687,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.9.x-dev"
+                    "dev-master": "1.10.x-dev"
                 }
             },
             "autoload": {
@@ -1718,7 +1714,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2014-04-20 16:41:26"
+            "time": "2014-06-04 16:30:04"
         },
         {
             "name": "psr/log",
@@ -1760,32 +1756,34 @@
         },
         {
             "name": "symfony/console",
-            "version": "v2.4.3",
+            "version": "v2.5.2",
             "target-dir": "Symfony/Component/Console",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "ef20f1f58d7f693ee888353962bd2db336e3bbcb"
+                "reference": "386fa63407805959bd2c5fe540294721ad4224c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/ef20f1f58d7f693ee888353962bd2db336e3bbcb",
-                "reference": "ef20f1f58d7f693ee888353962bd2db336e3bbcb",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/386fa63407805959bd2c5fe540294721ad4224c8",
+                "reference": "386fa63407805959bd2c5fe540294721ad4224c8",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3"
             },
             "require-dev": {
+                "psr/log": "~1.0",
                 "symfony/event-dispatcher": "~2.1"
             },
             "suggest": {
+                "psr/log": "For using the console logger",
                 "symfony/event-dispatcher": ""
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.5-dev"
                 }
             },
             "autoload": {
@@ -1811,20 +1809,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2014-03-01 17:35:04"
+            "time": "2014-07-15 14:15:12"
         },
         {
             "name": "twig/twig",
-            "version": "v1.15.1",
+            "version": "v1.16.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "1fb5784662f438d7d96a541e305e28b812e2eeed"
+                "reference": "8ce37115802e257a984a82d38254884085060024"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/1fb5784662f438d7d96a541e305e28b812e2eeed",
-                "reference": "1fb5784662f438d7d96a541e305e28b812e2eeed",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/8ce37115802e257a984a82d38254884085060024",
+                "reference": "8ce37115802e257a984a82d38254884085060024",
                 "shasum": ""
             },
             "require": {
@@ -1833,7 +1831,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.15-dev"
+                    "dev-master": "1.16-dev"
                 }
             },
             "autoload": {
@@ -1853,7 +1851,7 @@
                     "role": "Lead Developer"
                 },
                 {
-                    "name": "Armin Ronacher",
+                    "name": "Armin Ronacher2",
                     "email": "armin.ronacher@active-4.com",
                     "role": "Project Founder"
                 },
@@ -1868,7 +1866,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2014-02-13 10:19:29"
+            "time": "2014-07-05 12:19:05"
         },
         {
             "name": "vnagara/runtime-config",
@@ -2200,17 +2198,93 @@
             "time": "2013-05-02 12:33:49"
         },
         {
-            "name": "zf-commons/zfc-twig",
-            "version": "1.2.1",
+            "name": "zf-commons/zfc-rbac",
+            "version": "2.4.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ZF-Commons/ZfcTwig.git",
-                "reference": "735999e652b8953493a535f4c1e6bcd26ecefba4"
+                "url": "https://github.com/ZF-Commons/zfc-rbac.git",
+                "reference": "e4a646cde5fb4771767e25fe687104437f76d75a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ZF-Commons/ZfcTwig/zipball/735999e652b8953493a535f4c1e6bcd26ecefba4",
-                "reference": "735999e652b8953493a535f4c1e6bcd26ecefba4",
+                "url": "https://api.github.com/repos/ZF-Commons/zfc-rbac/zipball/e4a646cde5fb4771767e25fe687104437f76d75a",
+                "reference": "e4a646cde5fb4771767e25fe687104437f76d75a",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4",
+                "zendframework/zend-mvc": "~2.2",
+                "zendframework/zend-servicemanager": "~2.2",
+                "zfr/rbac": "~1.2"
+            },
+            "require-dev": {
+                "doctrine/common": "~2.4",
+                "doctrine/doctrine-module": "~0.8",
+                "doctrine/doctrine-orm-module": "~0.8",
+                "phpunit/phpunit": "~3.7",
+                "satooshi/php-coveralls": "~0.6",
+                "squizlabs/php_codesniffer": "1.4.*",
+                "zendframework/zend-developer-tools": "dev-master",
+                "zendframework/zendframework": "~2.2"
+            },
+            "suggest": {
+                "doctrine/doctrine-module": "if you want to use Doctrine role provider",
+                "zendframework/zend-developer-tools": "if you want to show information about the roles"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.4-dev",
+                    "dev-develop": "3.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "ZfcRbac\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Spraggs",
+                    "email": "theman@spiffyjr.me",
+                    "homepage": "http://www.spiffyjr.me/"
+                },
+                {
+                    "name": "Michaël Gallego",
+                    "email": "mic.gallego@gmail.com",
+                    "homepage": "http://www.michaelgallego.fr"
+                },
+                {
+                    "name": "Jean-Marie Leroux",
+                    "email": "jmleroux.pro@gmail.com"
+                }
+            ],
+            "description": "Zend Framework 2 Module that provides a layer of features of Zend\\Permissions\\Rbac",
+            "homepage": "http://www.github.com/ZF-Commons/zfc-rbac",
+            "keywords": [
+                "module",
+                "permissions",
+                "rbac",
+                "zf2"
+            ],
+            "time": "2014-06-22 22:17:38"
+        },
+        {
+            "name": "zf-commons/zfc-twig",
+            "version": "1.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ZF-Commons/ZfcTwig.git",
+                "reference": "0235932354b9c25b1a492e8921d3b2bfedcdba42"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ZF-Commons/ZfcTwig/zipball/0235932354b9c25b1a492e8921d3b2bfedcdba42",
+                "reference": "0235932354b9c25b1a492e8921d3b2bfedcdba42",
                 "shasum": ""
             },
             "require": {
@@ -2246,20 +2320,20 @@
                 "twig",
                 "zf2"
             ],
-            "time": "2014-03-05 18:08:57"
+            "time": "2014-04-29 17:40:31"
         },
         {
             "name": "zf-commons/zfc-user",
-            "version": "0.1.3",
+            "version": "0.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ZF-Commons/ZfcUser.git",
-                "reference": "db5b39df5f640c86299c74f46a91869c09c9a3ed"
+                "reference": "d1a6b3ffc1f7c55ab89fa25906040557f75feea1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ZF-Commons/ZfcUser/zipball/db5b39df5f640c86299c74f46a91869c09c9a3ed",
-                "reference": "db5b39df5f640c86299c74f46a91869c09c9a3ed",
+                "url": "https://api.github.com/repos/ZF-Commons/ZfcUser/zipball/d1a6b3ffc1f7c55ab89fa25906040557f75feea1",
+                "reference": "d1a6b3ffc1f7c55ab89fa25906040557f75feea1",
                 "shasum": ""
             },
             "require": {
@@ -2323,7 +2397,7 @@
             "keywords": [
                 "zf2"
             ],
-            "time": "2014-04-17 10:31:44"
+            "time": "2014-06-08 20:43:16"
         },
         {
             "name": "zf-commons/zfc-user-doctrine-orm",
@@ -2380,21 +2454,71 @@
                 "zf2"
             ],
             "time": "2014-04-17 19:39:44"
+        },
+        {
+            "name": "zfr/rbac",
+            "version": "1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zf-fr/rbac.git",
+                "reference": "493711bfc2a637fd7c6f23b71b7b55a621c35d9d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zf-fr/rbac/zipball/493711bfc2a637fd7c6f23b71b7b55a621c35d9d",
+                "reference": "493711bfc2a637fd7c6f23b71b7b55a621c35d9d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~3.7",
+                "satooshi/php-coveralls": "~0.6",
+                "squizlabs/php_codesniffer": "1.4.*",
+                "zendframework/zend-servicemanager": "~2.2"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Rbac\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michaël Gallego",
+                    "email": "mic.gallego@gmail.com",
+                    "homepage": "http://www.michaelgallego.fr/"
+                }
+            ],
+            "description": "Zend Framework 3 prototype for Zend\\Permissions\\Rbac.",
+            "homepage": "https://github.com/zf-fr/rbac",
+            "keywords": [
+                "rbac",
+                "security",
+                "zf2",
+                "zf3"
+            ],
+            "time": "2014-02-06 14:18:34"
         }
     ],
     "packages-dev": [
         {
             "name": "neilime/zf2-twb-bundle",
-            "version": "2.2.2",
+            "version": "2.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/neilime/zf2-twb-bundle.git",
-                "reference": "22927fec14a9c5f6b9c342d8db429d683c404cef"
+                "reference": "6804967b530c7e4bbb878adf0fc5fcbb54626448"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/neilime/zf2-twb-bundle/zipball/22927fec14a9c5f6b9c342d8db429d683c404cef",
-                "reference": "22927fec14a9c5f6b9c342d8db429d683c404cef",
+                "url": "https://api.github.com/repos/neilime/zf2-twb-bundle/zipball/6804967b530c7e4bbb878adf0fc5fcbb54626448",
+                "reference": "6804967b530c7e4bbb878adf0fc5fcbb54626448",
                 "shasum": ""
             },
             "require": {
@@ -2441,7 +2565,7 @@
                 "twitter bootstrap",
                 "zend framework 2"
             ],
-            "time": "2014-03-31 20:15:05"
+            "time": "2014-05-11 15:19:06"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -2735,20 +2859,22 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "3.7.35",
+            "version": "3.7.37",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "83f9537e46346f75ed6925441ac259453213c7cc"
+                "reference": "ae6cefd7cc84586a5ef27e04bae11ee940ec63dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/83f9537e46346f75ed6925441ac259453213c7cc",
-                "reference": "83f9537e46346f75ed6925441ac259453213c7cc",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ae6cefd7cc84586a5ef27e04bae11ee940ec63dc",
+                "reference": "ae6cefd7cc84586a5ef27e04bae11ee940ec63dc",
                 "shasum": ""
             },
             "require": {
+                "ext-ctype": "*",
                 "ext-dom": "*",
+                "ext-json": "*",
                 "ext-pcre": "*",
                 "ext-reflection": "*",
                 "ext-spl": "*",
@@ -2764,9 +2890,6 @@
                 "pear-pear.php.net/pear": "1.9.4"
             },
             "suggest": {
-                "ext-json": "*",
-                "ext-simplexml": "*",
-                "ext-tokenizer": "*",
                 "phpunit/php-invoker": "~1.1"
             },
             "bin": [
@@ -2805,7 +2928,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2014-04-21 06:25:54"
+            "time": "2014-04-30 12:24:19"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -2858,17 +2981,17 @@
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.4.3",
+            "version": "v2.5.2",
             "target-dir": "Symfony/Component/Yaml",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "77a41c2835ab7cfe8bf6d15e25d3af8f3eb3bacd"
+                "reference": "f868ecdbcc0276b6158dfbf08b9e98ce07f014e1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/77a41c2835ab7cfe8bf6d15e25d3af8f3eb3bacd",
-                "reference": "77a41c2835ab7cfe8bf6d15e25d3af8f3eb3bacd",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/f868ecdbcc0276b6158dfbf08b9e98ce07f014e1",
+                "reference": "f868ecdbcc0276b6158dfbf08b9e98ce07f014e1",
                 "shasum": ""
             },
             "require": {
@@ -2877,7 +3000,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.5-dev"
                 }
             },
             "autoload": {
@@ -2903,20 +3026,20 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2014-03-12 18:29:58"
+            "time": "2014-07-09 09:05:48"
         }
     ],
     "aliases": [
         {
-            "alias": "0.6",
-            "alias_normalized": "0.6.0.0",
-            "version": "dev-twb3",
+            "alias": "0.7",
+            "alias_normalized": "0.7.0.0",
+            "version": "dev-dev",
             "package": "libra/libra-app"
         },
         {
-            "alias": "0.5",
-            "alias_normalized": "0.5.0.0",
-            "version": "dev-twb3",
+            "alias": "0.6",
+            "alias_normalized": "0.6.0.0",
+            "version": "dev-dev",
             "package": "libra/libra-article"
         }
     ],
@@ -2927,10 +3050,11 @@
         "libra/libra-article-image-zooming": 20,
         "libra/libra-navigation": 20,
         "libra/libra-locale": 20,
-        "vnagara/runtime-config": 20
+        "vnagara/runtime-config": 20,
+        "libra/libra-user": 20
     },
     "platform": {
-        "php": ">=5.3.3"
+        "php": ">=5.5.0"
     },
     "platform-dev": [
 
