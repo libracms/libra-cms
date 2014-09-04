@@ -1,0 +1,11 @@
+<?php
+/**
+ * Put there configurations for local server.
+ * It can be timezone, locale, php.ini settings, etc.
+ * Copy this file to server.local.php to enable its options.
+ */
+
+const APP_ENV = 'development';
+
+//date_default_timezone_set('Europe/Berlin');
+//etc.

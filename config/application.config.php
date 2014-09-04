@@ -33,7 +33,7 @@ $modules = array(
     'Application',
 );
 
-if ($env === 'development') {
+if (APP_ENV == 'development') {
     //$modules[] = 'ZendDeveloperTools';
 }
 
