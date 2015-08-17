@@ -981,20 +981,20 @@
         },
         {
             "name": "libra/jquery-assets",
-            "version": "1.11.1",
+            "version": "1.11.1-p1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/libracms/jquery-assets.git",
-                "reference": "6870ac17ac6802394f46dc0068693f58b5b3e49e"
+                "reference": "2eaad818e32cbf309b9a47ec0535f33c34ce7a3c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/libracms/jquery-assets/zipball/6870ac17ac6802394f46dc0068693f58b5b3e49e",
-                "reference": "6870ac17ac6802394f46dc0068693f58b5b3e49e",
+                "url": "https://api.github.com/repos/libracms/jquery-assets/zipball/2eaad818e32cbf309b9a47ec0535f33c34ce7a3c",
+                "reference": "2eaad818e32cbf309b9a47ec0535f33c34ce7a3c",
                 "shasum": ""
             },
             "require": {
-                "libra/libra-assets-installer": "~2.0.0"
+                "libra/libra-assets-installer": "^2.0"
             },
             "type": "asset-aware",
             "notification-url": "https://packagist.org/downloads/",
@@ -1015,7 +1015,7 @@
                 "jquery",
                 "zf2"
             ],
-            "time": "2014-07-08 11:32:01"
+            "time": "2015-08-17 19:45:04"
         },
         {
             "name": "libra/jquery-ui-assets",
@@ -1314,16 +1314,16 @@
         },
         {
             "name": "libra/libra-assets-installer",
-            "version": "2.0.1",
+            "version": "2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/libracms/libra-assets-installer.git",
-                "reference": "ad5f9400da9da609438a5f6e4aca149458d198ee"
+                "reference": "0e03c0aa6ae2e3b9f12a94a6f29c18ed91b47c0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/libracms/libra-assets-installer/zipball/ad5f9400da9da609438a5f6e4aca149458d198ee",
-                "reference": "ad5f9400da9da609438a5f6e4aca149458d198ee",
+                "url": "https://api.github.com/repos/libracms/libra-assets-installer/zipball/0e03c0aa6ae2e3b9f12a94a6f29c18ed91b47c0d",
+                "reference": "0e03c0aa6ae2e3b9f12a94a6f29c18ed91b47c0d",
                 "shasum": ""
             },
             "require-dev": {
@@ -1360,7 +1360,7 @@
                 "installer",
                 "zf2"
             ],
-            "time": "2015-05-01 19:56:17"
+            "time": "2015-08-17 19:33:08"
         },
         {
             "name": "libra/libra-locale",
