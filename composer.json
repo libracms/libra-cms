@@ -33,11 +33,12 @@
         "libra/datatables-assets":          "~1.9",
         "libra/fancybox-assets":            "2.*",
         "libra/libra-article-image-zooming":"0.*",
-        "leafo/lessphp":                    "~0.3",
         "libra/libra-locale":               "~0.5",
         "monolog/monolog":                  "~1.5",
         "vnagara/runtime-config":           "1.*",
-        "zendframework/zend-developer-tools": "0.*"
+        "zendframework/zend-developer-tools": "0.*",
+        "leafo/scssphp":                    "^0.1.9",
+        "twbs/bootstrap-sass":              "^3.3.0"
     },
 
     "require-dev": {
