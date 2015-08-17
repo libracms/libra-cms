@@ -1112,12 +1112,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/libracms/libra-app.git",
-                "reference": "10a1783e3914429a1d43b227ad0fc60de233c1af"
+                "reference": "7e700396d44b88b9780c70a637e60cfe9879862d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/libracms/libra-app/zipball/10a1783e3914429a1d43b227ad0fc60de233c1af",
-                "reference": "10a1783e3914429a1d43b227ad0fc60de233c1af",
+                "url": "https://api.github.com/repos/libracms/libra-app/zipball/7e700396d44b88b9780c70a637e60cfe9879862d",
+                "reference": "7e700396d44b88b9780c70a637e60cfe9879862d",
                 "shasum": ""
             },
             "require": {
@@ -1195,7 +1195,7 @@
                 "zf",
                 "zf2"
             ],
-            "time": "2014-07-21 08:07:15"
+            "time": "2015-08-17 18:20:53"
         },
         {
             "name": "libra/libra-article",
