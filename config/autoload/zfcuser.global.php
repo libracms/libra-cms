@@ -42,7 +42,7 @@ $settings = array(
      */
     //'enable_username' => false,
 
-    /**     
+    /**
      * Authentication Adapters
      *
      * Specify the adapters that will be used to try and authenticate the user

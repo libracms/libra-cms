@@ -8,4 +8,4 @@
 .DS_Store
 .*.sw*
 .*.un~
-
+/config/server.local.php

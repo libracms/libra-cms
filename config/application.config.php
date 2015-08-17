@@ -16,14 +16,14 @@ $modules = array(
     'LibraArticleImageZooming',
     'ZfcBase',
     'ZfcUser',
-    'ZfcUserDoctrineORM',
+    //'ZfcUserDoctrineORM',
     //'ZfcTwig',  //breack partial display
-    'ZfcTwitterBootstrap',
-    'DluTwBootstrap',
-    'DluTwBootstrapDemo',
+    //'TwbBundle',
     'RuntimeConfig',
     //'BjyAuthorize',
+    'ZfcRbac',
     //'Test',
+    'LibraUser',
 
     // Put below YOUR modules. They will be in the last position to override
     // rest of modules.
@@ -33,7 +33,7 @@ $modules = array(
     'Application',
 );
 
-if ($env === 'development') {
+if (APP_ENV == 'development') {
     //$modules[] = 'ZendDeveloperTools';
 }
 
@@ -48,6 +48,7 @@ return array(
         'module_paths' => array(
             './module',
             './vendor',
+            'LibraUser' => './vendor/libra/libra-user',
         ),
 
         // An array of paths from which to glob configuration files after
