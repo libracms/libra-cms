@@ -38,13 +38,14 @@
         "vnagara/runtime-config":           "1.*",
         "zendframework/zend-developer-tools": "0.*",
         "leafo/scssphp":                    "^0.1.9",
-        "twbs/bootstrap-sass":              "^3.3.0"
+        "twbs/bootstrap-sass":              "^3.3.0",
+        "libra/jquery-assets":              "2.*"
     },
 
     "require-dev": {
         "neilime/zf2-twb-bundle":           "2.*",
-        "libra/libra-app":                  "dev-dev as 0.7",
-        "libra/libra-article":              "dev-dev as 0.6",
+        "libra/libra-app":                  "dev-master",
+        "libra/libra-article":              "dev-master",
         "libra/libra-article-image-zooming":"dev-master",
         "libra/libra-navigation":           "dev-master",
         "libra/libra-locale":               "dev-master",
