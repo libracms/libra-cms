@@ -42,19 +42,6 @@
         "libra/jquery-assets":              "2.*"
     },
 
-    "require-dev": {
-        "neilime/zf2-twb-bundle":           "2.*",
-        "libra/libra-app":                  "dev-master",
-        "libra/libra-article":              "dev-master",
-        "libra/libra-article-image-zooming":"dev-master",
-        "libra/libra-navigation":           "dev-master",
-        "libra/libra-locale":               "dev-master",
-        "vnagara/runtime-config":           "dev-master",
-        "libra/libra-user":                 "dev-master",
-        "phpunit/phpunit":                  "~3.7.5",
-        "phpunit/php-invoker":              "1.1.*"
-    },
-
     "autoload": {
         "psr-0": {
             "Application\\": "module/Application/src/",
